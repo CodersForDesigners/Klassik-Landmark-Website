@@ -171,18 +171,18 @@ label, .label {
 	text-transform: uppercase;
 }
 
-h1, .h1 { font-size: 3.8rem; }
-h2, .h2 { font-size: 2.8rem; }
-h3, .h3 { font-size: 2.1rem; }
+h1, .h1 { font-size: 2.6rem; }
+h2, .h2 { font-size: 2.2rem; }
+h3, .h3 { font-size: 1.8rem; }
 h4, .h4 { font-size: 1.6rem; }
-p, .p 	{ font-size: 1.2rem; }
-small, .small { font-size: 0.8rem; }
-label, .label { font-size: 1.0rem; }
+p, .p 	{ font-size: 1.3rem; }
+small, .small { font-size: 0.9rem; }
+label, .label { font-size: 1.1rem; }
 
 @media( min-width: 640px )  {
-	h1, .h1 { font-size: 4.7rem; }
-	h2, .h2 { font-size: 3.6rem; }
-	h3, .h3 { font-size: 2.7rem; }
+	h1, .h1 { font-size: 4.2rem; }
+	h2, .h2 { font-size: 3.2rem; }
+	h3, .h3 { font-size: 2.6rem; }
 	h4, .h4 { font-size: 2.0rem; }
 	p, .p 	{ font-size: 1.4rem; }
 	small, .small { font-size: 1.0rem; }
@@ -190,23 +190,23 @@ label, .label { font-size: 1.0rem; }
 }
 
 @media( min-width: 1040px ) {
-	h1, .h1 { font-size: 7.6rem; }
-	h2, .h2 { font-size: 5.1rem; }
-	h3, .h3 { font-size: 3.2rem; }
-	h4, .h4 { font-size: 2.3rem; }
-	p, .p 	{ font-size: 1.5rem; }
-	small, .small { font-size: 1.0rem; }
-	label, .label { font-size: 1.2rem; }
+	h1, .h1 { font-size: 4.8rem; }
+	h2, .h2 { font-size: 3.4rem; }
+	h3, .h3 { font-size: 2.8rem; }
+	h4, .h4 { font-size: 2.2rem; }
+	p, .p 	{ font-size: 1.6rem; }
+	small, .small { font-size: 1.2rem; }
+	label, .label { font-size: 1.4rem; }
 }
 
 @media( min-width: 1380px ) {
-	h1, .h1 { font-size: 9.1rem; }
-	h2, .h2 { font-size: 6.1rem; }
-	h3, .h3 { font-size: 4.0rem; }
-	h4, .h4 { font-size: 2.7rem; }
+	h1, .h1 { font-size: 6.2rem; }
+	h2, .h2 { font-size: 4.4rem; }
+	h3, .h3 { font-size: 3.6rem; }
+	h4, .h4 { font-size: 2.8rem; }
 	p, .p 	{ font-size: 1.8rem; }
-	small, .small { font-size: 1.2rem; }
-	label, .label { font-size: 1.4rem; }
+	small, .small { font-size: 1.4rem; }
+	label, .label { font-size: 1.6rem; }
 }
 
 
@@ -376,6 +376,31 @@ select:focus {
 .text-dark-1 { color: var(--dark-1); }
 .text-dark-2 { color: var(--dark-2); }
 
+
+
+
+
+
+
+/*
+ *
+ *	Section Height
+ *
+ */
+
+.section-height { min-height: 375px; }
+
+@media( min-width: 640px )  {
+	.section-height { min-height: 768px; }
+}
+
+@media( min-width: 1040px ) {
+	.section-height { min-height: 620px; }
+}
+
+@media( min-width: 1380px ) {
+	.section-height { min-height: 800px; }
+}
 
 
 
