@@ -195,8 +195,8 @@ label, .label { font-size: 1.1rem; }
 	h3, .h3 { font-size: 2.8rem; }
 	h4, .h4 { font-size: 2.2rem; }
 	p, .p 	{ font-size: 1.6rem; }
-	small, .small { font-size: 1.2rem; }
-	label, .label { font-size: 1.4rem; }
+	small, .small { font-size: 1.1rem; }
+	label, .label { font-size: 1.3rem; }
 }
 
 @media( min-width: 1380px ) {
@@ -205,8 +205,8 @@ label, .label { font-size: 1.1rem; }
 	h3, .h3 { font-size: 3.6rem; }
 	h4, .h4 { font-size: 2.8rem; }
 	p, .p 	{ font-size: 1.8rem; }
-	small, .small { font-size: 1.4rem; }
-	label, .label { font-size: 1.6rem; }
+	small, .small { font-size: 1.3rem; }
+	label, .label { font-size: 1.5rem; }
 }
 
 
@@ -223,19 +223,22 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
+	position: relative;
 	padding: 0 15px;
-	height: 36px;
-	font-size: 1rem;
-	line-height: 36px;
+	height: 50px;
+	font-size: 1.1rem;
+	line-height: 50px;
+	text-align: left;
 	color: var(--light-0);
 	background-color: var(--dark-1);
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 	border: none;
-	border-radius: 4px;
+	border-radius: 1px;
 	filter: brightness(1);
 	-webkit-transition: filter 0.2s;
 	-moz-transition: filter 0.2s;
 	transition: filter 0.2s;
+	cursor: pointer;
 }
 
 input[type="submit"]:hover,
@@ -287,13 +290,14 @@ input[type="password"],
 input[type="date"],
 textarea,
 select {
-	height: 36px;
+	font-size: 1.3rem;
+	height: 50px;
 	padding: 11px 15px; /* The 6px vertically centers text on FF, ignored by Webkit */
 	color: var(--dark-0);
 	background-color: var(--light-0);
-	border: 0;
+	border: solid 1px var(--light-2);
 	border-radius: 1px;
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
 textarea {
@@ -311,12 +315,18 @@ input[type="date"]:focus,
 textarea:focus,
 select:focus {
 	outline: 0;
-	box-shadow: 0px 2px 6px rgba(20,20,10,0.5);
+	box-shadow: 0px 2px 6px rgba(50,50,50,0.4);
 }
 
-@media( min-width: 640px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1380px ) {
+@media( min-width: 640px )  {
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		font-size: 1.2rem;
+	}
+
 	input[type="email"],
 	input[type="number"],
 	input[type="search"],
@@ -327,7 +337,54 @@ select:focus {
 	input[type="date"],
 	textarea,
 	select {
-		height: 36px;
+		font-size: 1.4rem;
+	}
+}
+@media( min-width: 1040px ) {
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		font-size: 1.3rem;
+	}
+
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	input[type="date"],
+	textarea,
+	select {
+		font-size: 1.6rem;
+	}
+}
+@media( min-width: 1380px ) {
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		font-size: 1.5rem;
+		height: 60px;
+		line-height: 60px;
+	}
+
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="text"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	input[type="date"],
+	textarea,
+	select {
+		font-size: 1.8rem;
+		height: 60px;
 		padding: 6px 12px; /* The 6px vertically centers text on FF, ignored by Webkit */
 	}
 }
@@ -413,7 +470,7 @@ select:focus {
  *
  */
 
-.block-space-top-bottom { padding: 40px 0; }
+/*.block-space-top-bottom { padding: 40px 0; }
 .block-space-top { padding: 40px 0 0 0; }
 .block-space-bottom { padding: 0 0 40px 0; }
 
@@ -433,6 +490,28 @@ select:focus {
 	.block-space-top-bottom { padding: 240px 0; }
 	.block-space-top { padding: 240px 0 0 0; }
 	.block-space-bottom { padding: 0 0 240px 0; }
+}*/
+
+.block-space-top-bottom { padding: 25px 0; }
+.block-space-top { padding: 25px 0 0 0; }
+.block-space-bottom { padding: 0 0 25px 0; }
+
+@media( min-width: 640px )  {
+	.block-space-top-bottom { padding: 40px 0; }
+	.block-space-top { padding: 40px 0 0 0; }
+	.block-space-bottom { padding: 0 0 40px 0; }
+}
+
+/*@media( min-width: 1040px ) {
+	.block-space-top-bottom { padding: 180px 0; }
+	.block-space-top { padding: 180px 0 0 0; }
+	.block-space-bottom { padding: 0 0 180px 0; }
+}*/
+
+@media( min-width: 1380px ) {
+	.block-space-top-bottom { padding: 60px 0; }
+	.block-space-top { padding: 60px 0 0 0; }
+	.block-space-bottom { padding: 0 0 60px 0; }
 }
 
 
@@ -448,3 +527,92 @@ select:focus {
 	align-items: center;
 }
 
+
+
+
+/*
+ *
+ *	Underline
+ *
+ */
+hr.underline {
+	display: inline-block;
+	border-color: var(--red-1);
+	margin: 10px 0;
+	width: 25px;
+}
+@media( min-width: 640px )  {
+	hr.underline {
+		margin: 15px 0;
+		width: 50px;
+	}
+}
+@media( min-width: 1040px ) {}
+@media( min-width: 1380px ) {
+	hr.underline {
+		margin: 20px 0;
+		width: 84px;
+	}
+}
+
+
+
+
+/*
+ *
+ *	Form Row
+ *
+ */
+.form-row {
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.form-row input { position: relative; }
+
+.form-row input + .icon {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	right: 15px;
+	bottom: 35px;
+	transform: translateY(50%);
+}
+
+button .icon,
+.button .icon {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+@media( min-width: 640px )  {
+	.form-row { padding-bottom: 15px; }
+
+	.form-row input + .icon {
+		bottom: 40px;
+	}
+}
+@media( min-width: 1040px ) {}
+@media( min-width: 1380px ) {
+	.form-row { padding-bottom: 20px; }
+
+	.form-row input + .icon {
+		height: 28px;
+		width: 28px;
+		right: 20px;
+		bottom: 50px;
+	}
+
+	button .icon,
+	.button .icon {
+		height: 28px;
+		width: 28px;
+		right: 20px;
+	}
+}

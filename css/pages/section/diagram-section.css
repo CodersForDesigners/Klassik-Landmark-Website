@@ -1,0 +1,14 @@
+/*
+ * Diagram Section
+ */
+
+.diagram-section {}
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {
+	.diagram-section .flex-rtl {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+}
+@media( min-width: 1380px ) {}

@@ -83,15 +83,19 @@
 					<div class="label text-dark-1">2035sft of Privacy</div>
 				</div>
 				<div class="columns small-12 large-6 fill-light-1 section-height">
-					<div class="point h4 text-dark-1">Aerodynamic Tower Boosts Ventilation</div>
-					<div class="point h4 text-dark-1">Bright, Airy Kitchen & Utility</div>
-					<div class="point h4 text-dark-1">9'6" Clear Ceiling-Height</div>
-					<div class="point h4 text-dark-1">20% More Room Volume</div>
-					<div class="point h4 text-dark-1">Only 3 Flats Per Floor</div>
-					<div class="point h4 text-dark-1">Tall 8 Feet Entry Door</div>
-					<div class="point h4 text-dark-1">Larger Balconies</div>
-					<div class="point h4 text-dark-1">No Visible Beams</div>
-					<div class="point h4 text-dark-1">No Common Walls</div>
+					<div class="row">
+						<div class="columns small-8 small-offset-2 medium-6 medium-offset-3 large-8 large-offset-2">
+							<div class="point h4 text-dark-1">Aerodynamic Tower Boosts Ventilation</div>
+							<div class="point h4 text-dark-1">Bright, Airy Kitchen & Utility</div>
+							<div class="point h4 text-dark-1">9'6" Clear Ceiling-Height</div>
+							<div class="point h4 text-dark-1">20% More Room Volume</div>
+							<div class="point h4 text-dark-1">Only 3 Flats Per Floor</div>
+							<div class="point h4 text-dark-1">Tall 8 Feet Entry Door</div>
+							<div class="point h4 text-dark-1">No Common Walls</div>
+							<div class="point h4 text-dark-1">Larger Balconies</div>
+							<div class="point h4 text-dark-1">No Visible Beams</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -110,9 +114,11 @@
 		</div>
 		<div class="row layer-2">
 			<div class="container">
-				<div class="card columns small-9 medium-6 large-4 large-offset-6 fill-dark-1">
-					<div class="h2 strong text-light-0">Private and Detached</div>
-					<div class="h4 text-red-1">Your privacy is a <br>necessity</div>
+				<div class="card columns small-9 medium-6 large-4 large-offset-6 fill-dark-1 flex-center">
+					<div>
+						<div class="h2 strong text-light-0">Private and Detached</div>
+						<div class="h4 text-red-1">Your privacy is a <br>necessity</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -124,11 +130,11 @@
 				<div class="columns small-12 large-6 fill-neutral-2">
 					<div class="row section-height flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
-							<div class="h4 text-light-0">No common walls, only 3 flats per floor</div>
-							
-							<div class="p">The 2000sft ‘Island 3BHK’ does not share any common walls with any other apartment. It is the only apartment in the vicinity that opens to the East and the West. Every lift lobby only serves 3 apartments per floor. Each lift lobby has 2 lifts, one 13 person lift and one 6 person lift.</div>
+							<div class="h4 text-light-0">No common walls, <br>only 3 flats per floor</div>
+							<hr class="underline">
+							<div class="p block-space-bottom text-neutral-0">The 2000sft ‘Island 3BHK’ does not share any common walls with any other apartment. It is the only apartment in the vicinity that opens to the East and the West. Every lift lobby only serves 3 apartments per floor. Each lift lobby has 2 lifts, one 13 person lift and one 6 person lift.</div>
 
-							<div class="p text-light-1 fill-dark-0">
+							<div class="p text-light-1 fill-dark-0" style="padding: 15px;">
 								ISLAND /ˈ ʌɪlənd/ 
 								Noun - a thing regarded as resembling an island, especially in being isolated or detached.
 							</div>
@@ -136,32 +142,38 @@
 					</div>
 				</div>
 				<div class="columns small-12 large-6 fill-light-1">
-					<div class="row section-height flex-center">
+					<div class="row section-height block-space-top-bottom flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
-							<div class="h4 text-red-1">Enquire Now</div>
+							<div class="h4 text-red-1 block-space-bottom">Enquire Now</div>
 							<form>
 								<div class="form-row">
 									<label>
 										<span class="">Name</span><br>
 										<input class="block" type="text">
+										<img class="icon" src="/media/icons/name.svg">
 									</label>
 								</div>
 								<div class="form-row">
 									<label>
 										<span class="">Email</span><br>
 										<input class="block" type="text">
+										<img class="icon" src="/media/icons/email.svg">
 									</label>
 								</div>
 								<div class="form-row">
 									<label>
 										<span class="">Phone</span><br>
 										<input class="block" type="text">
+										<img class="icon" src="/media/icons/phone.svg">
 									</label>
 								</div>
 								<div class="form-row">
 									<label>
 										<span class="invisible">Submit</span><br>
-										<button type="submit" class="block fill-red-0">Send</button>
+										<button type="submit" class="button block fill-red-0" style="position: relative;">
+											Send
+											<img class="icon" src="/media/icons/send.svg">
+										</button>
 									</label>
 								</div>
 							</form>
@@ -172,7 +184,7 @@
 		</div>
 	</section>
 		
-	<section class="section-height fill-light-1">
+	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
 				<div class="columns small-12 large-6">
@@ -182,6 +194,7 @@
 					<div class="row section-height flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Aerodynamics to improve ventilation</div>
+							<hr class="underline">
 							<div class="p">A direct benefit of the 'wing-shaped' towers, better airflow around the buildings. Placing 3 balconies on this aerodynamic curve significantly boosts the flow of air into all rooms. Klassik Landmark has more balconies per apartment than any other project in the vicinity.</div>
 						</div>
 					</div>
@@ -190,9 +203,9 @@
 		</div>
 	</section>
 		
-	<section class="section-height fill-light-2">
+	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
-			<div class="container fill-light-1">
+			<div class="container fill-light-1 flex-rtl">
 				<div class="columns small-12 large-6">
 					< - insert diagram - >
 				</div>
@@ -200,6 +213,7 @@
 					<div class="row section-height flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Large openings, more balconies, more sunlight</div>
+							<hr class="underline">
 							<div class="p">The sliding doors that lead to a balcony are a much larger openings, compared to a regular window, they let in more sunlight and fresh air.</div>
 						</div>
 					</div>
@@ -208,7 +222,7 @@
 		</div>
 	</section>
 		
-	<section class="section-height fill-light-1">
+	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
 				<div class="columns small-12 large-6">
@@ -218,6 +232,7 @@
 					<div class="row section-height flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Bright airy kitchen and utility</div>
+							<hr class="underline">
 							<div class="p">The Kitchen is positioned closer to the building line, it opens out into a fully ventilated utility. This is a best in class feature.</div>
 						</div>
 					</div>
@@ -236,25 +251,7 @@
 		</div>
 	</section>
 		
-	<section class="section-height fill-light-2">
-		<div class="row">
-			<div class="container fill-light-1">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
-				</div>
-				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
-						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
-							<div class="h4 text-dark-1">20% higher room volume</div>
-							<div class="p">The ‘flat-slab’ engineering upgrade allows for larger room sizes, an improved ceiling height of 9’6” and no visible beams, because there are no beams. All internal walls are not load bearing.</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-			
-	<section class="section-height fill-light-1">
+	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
 				<div class="columns small-12 large-6">
@@ -263,7 +260,27 @@
 				<div class="columns small-12 large-6">
 					<div class="row section-height flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
+							<div class="h4 text-dark-1">20% higher room volume</div>
+							<hr class="underline">
+							<div class="p">The ‘flat-slab’ engineering upgrade allows for larger room sizes, an improved ceiling height of 9’6” and no visible beams, because there are no beams. All internal walls are not load bearing.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+			
+	<section class="diagram-section section-height fill-light-2">
+		<div class="row">
+			<div class="container fill-light-1 flex-rtl">
+				<div class="columns small-12 large-6">
+					< - insert diagram - >
+				</div>
+				<div class="columns small-12 large-6">
+					<div class="row section-height flex-center">
+						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Takeover a Fresh Apartment Engineering Upgrade</div>
+							<hr class="underline">
 							<div class="p">We changed one engineering process to make your new apartment feel new.  The Doors, Sanitary Fixtures and Kitchen Counter are installed just before you move in. They are not soiled by construction workers. The apartment truly feels brand new.</div>
 							<div class="p">Top of the line building materials from Schindler, Grohe, Legrand, Grundfos, Pyramid, Saint Gobain & Nippon paint.</div>
 						</div>
@@ -287,51 +304,37 @@
 		</div>
 		<div class="row layer-2">
 			<div class="container">
-				<div class="card columns small-9 medium-6 large-4 large-offset-6 fill-dark-1">
-					<div class="h2 strong text-light-0">Responsible Engineering</div>
-					<div class="h4 text-red-1">Airplane Wing <br>Design</div>
+				<div class="card columns small-9 medium-6 large-4 large-offset-6 fill-dark-1 flex-center">
+					<div>
+						<div class="h2 strong text-light-0">Responsible Engineering</div>
+						<div class="h4 text-red-1">Airplane Wing <br>Design</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section-height fill-dark-2">
-		<div class="row">
+	<section class="photo-bleed-section fill-dark-2">
+		<div class="row layer-1">
 			<div class="container fill-dark-1">
 				<div class="columns small-12 large-6">
 					<div class="row section-height flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-light-0">Adjusted for local wind and sunlight conditions</div>
+							<hr class="underline">
 							<div class="p">Constructing a curved aerodynamic building is close to 10% more expensive. The result is benefits that are worth it, considering the long lifespan of a civil construction.</div>
 						</div>
 					</div>
 				</div>
-				<div class="columns small-12 large-6">
-					< - insert photo - >
-				</div>
+			</div>
+		</div>
+		<div class="row layer-2">
+			<div class="photo columns small-12 large-6 large-offset-6 section-height" style="background-image: url('/media/landmark-photos/Klassik_010.jpg');">
 			</div>
 		</div>
 	</section>
  
-	<section class="section-height fill-light-2">
-		<div class="row">
-			<div class="container fill-light-1">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
-				</div>
-				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
-						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
-							<div class="h4 text-dark-1">Aligned to Bangalore’s natural wind direction  Design Upgrade</div>
-							<div class="p">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden.</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-		
-	<section class="section-height fill-light-1">
+	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
 				<div class="columns small-12 large-6">
@@ -340,7 +343,27 @@
 				<div class="columns small-12 large-6">
 					<div class="row section-height flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
+							<div class="h4 text-dark-1">Aligned to Bangalore’s natural wind direction  Design Upgrade</div>
+							<hr class="underline">
+							<div class="p">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	<section class="diagram-section section-height fill-light-2">
+		<div class="row">
+			<div class="container fill-light-1 flex-rtl">
+				<div class="columns small-12 large-6">
+					< - insert diagram - >
+				</div>
+				<div class="columns small-12 large-6">
+					<div class="row section-height flex-center">
+						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">‘Aircraft Wing Section’ tower design Engineering Upgrade</div>
+							<hr class="underline">
 							<div class="p">We changed one engineering process to make your new apartment feel new.  The Doors, Sanitary Fixtures and Kitchen Counter are installed just before you move in. They are not soiled by construction workers. The apartment truly feels brand new.</div>
 						</div>
 					</div>
@@ -349,9 +372,9 @@
 		</div>
 	</section> 
 
-	<section class="section-height fill-light-2">
+	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
-			<div class="container fill-light-1">
+			<div class="container fill-light-0">
 				<div class="columns small-12 large-6">
 					< - insert diagram - >
 				</div>
@@ -359,6 +382,7 @@
 					<div class="row section-height flex-center">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">8.5 acres of open, traffic-free podium Design Upgrade</div>
+							<hr class="underline">
 							<div class="p">We optimised the building footprint down to just 20% of the total of 11 acres. The remaining 80% is a combination of green space & amenities for residents. We also improved on the industry norm by completely removing surface parking along the boundary wall. There is no vehicular traffic at the podium level. So that’s less noise, less dust, and a much needed child-friendly zone.</div>
 						</div>
 					</div>
@@ -367,24 +391,39 @@
 		</div>
 	</section>
 
-	<section class="section-height fill-neutral-1">
-		<div class="row">
-			<div class="container section-height fill-light-2">
-				<div class="columns small-12 large-6">
-					< - insert photo - >
-					<div class="h4 text-dark-1">Scientifically proven higher air quality</div>
+	<section class="photo-bleed-section fill-neutral-1">
+		<div class="row layer-2">
+			<div class="photo columns small-12 large-6 section-height" style="background-image: url('/media/landmark-photos/Klassik_025.jpg');">
+			</div>
+		</div>
+		<div class="row layer-3">
+			<div class="container">
+				<div class="card columns small-9 medium-6 large-4 fill-dark-1">
+					<div class="h3 text-light-0">Scientifically proven higher air quality</div>
+					<hr class="underline">
 					<div class="p">Periodically conducted, scientific measurements of air quality at the project.</div>
 				</div>
-				<div class="columns small-12 large-6">
-					<div class="point h4 text-dark-1">Optimised Building Footprint.</div>
-					<div class="point h4 text-dark-1">80% open space.</div>
-					<div class="point h4 text-dark-1">Wide views from curved balconies.</div>
-					<div class="point h4 text-dark-1">Balconies Either Face East or West.</div>
-					<div class="point h4 text-dark-1">Aligned With 80% Of Bangalore’s Wind.</div>
-					<div class="point h4 text-dark-1">Privacy For Ground Floor Flats.</div>
+			</div>
+		</div>
+		<div class="row layer-1">
+			<div class="container section-height fill-light-2">
+				<div class="columns small-12 large-6 large-offset-6">
+					<div class="row section-height flex-center">
+						<div class="columns small-8 small-offset-2 medium-6 medium-offset-3 large-8 large-offset-2">
+							<div class="point h4 text-dark-1">Optimised Building Footprint</div>
+							<div class="point h4 text-dark-1">80% open space</div>
+							<div class="point h4 text-dark-1">Wide views from curved balconies</div>
+							<div class="point h4 text-dark-1">Balconies Either Face East or West</div>
+							<div class="point h4 text-dark-1">Aligned With 80% Of Bangalore’s Wind</div>
+							<div class="point h4 text-dark-1">Privacy For Ground Floor Flats</div>
 
-					<div class="text-red-1">Pollution Board Air Quality Certificate:</div>
-					<div>Download</div>
+							<div class="text-red-1">Pollution Board Air Quality Certificate:</div>
+							<button class="button block">
+								Download
+								<img class="icon" src="/media/icons/certificate.svg">
+							</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -400,41 +439,66 @@
 		</div>
 	</section>
 
-	<section class="section-height fill-dark-1">
-		<div class="row">
-			<div class="container section-height">
-				<div class="columns small-12 large-6">
-					<div class="fill-dark-2">
-						<div class="h2 strong text-light-0">The only <span class="text-red-1">all 3BHK</span> apartment development</div>
-						<div class="h3 text-red-1">in the Sarjapur Road vicinity.</div>
-					</div>
+	<!-- Location Section -->
+	<section class="location-section section-height fill-dark-1">
+		<div class="row layer-2">
+			<div class="container">
+				<div class="card columns small-9 small-offset-3 large-6 large-offset-6 fill-dark-2">
+					<div class="h2 strong text-light-0">The only <span class="text-red-1">all 3BHK</span> apartment development</div>
+					<div class="h3 text-red-1">in the Sarjapur Road vicinity</div>
 				</div>
-				<div class="columns small-12 large-9">
+			</div>
+		</div>
+		<div class="row layer-1">
+			<div class="container">
+				<div class="columns small-12 large-9 fill-light-0 section-height">
 					< - insert map texture - > 
 				</div>
 				<div class="columns small-12 large-3">
-					<div class="row">
-
+					<div class="points row block-space-top-bottom">
+						<div class="columns small-6 small-offset-3 medium-3 medium-offset-2 large-8 large-offset-4">
+							<div class="point p text-light-0"><span class="icon distance h4 text-red-1">6 km</span><br> from Ecospace on the Outer Ring Road</div>
+							<div class="point p text-light-0"><span class="icon time h4 text-red-1">10 min</span><br> drive to Wipro Head Office</div>
+						</div>
+						<div class="columns small-6 small-offset-3 medium-3 medium-offset-2 large-8 large-offset-4">
+							<div class="point p text-light-0"><span class="icon distance h4 text-red-1">9 km</span><br> before Electronic City</div>
+							<div class="point p text-light-0"><span class="icon time h4 text-red-1">10 min</span><br> to Hosa Road Metro Station</div>
+						</div>
 					</div>
-					<div class="text-light-0"><span class="h4 text-red-1">6 km</span><br> from Ecospace on the ORR</div>
-					<div class="text-light-0"><span class="h4 text-red-1">10 min</span><br> drive to Wipro Head Office</div>
-					<div class="text-light-0"><span class="h4 text-red-1">9 km</span><br> before Electronic City</div>
-					<div class="text-light-0"><span class="h4 text-red-1">10 min</span><br> to Hosa Road Metro Station</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Location Section: Collage -->
+	<section class="location-section-collage fill-dark-1">
+		<div class="row layer-1">
+			<div class="container">
+				<div class="columns small-12 large-3">
+					<div class="row">
+						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-photos/Klassik-Site_03.jpg');"></div>
+						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-photos/Klassik-Site_03.jpg');"></div>
+					</div>
+				</div>
+				<div class="photo half columns small-12 large-9" style="background-image: url('/media/landmark-photos/Klassik-Site_03.jpg');"></div>
+			</div>
+		</div>
+		<div class="row layer-2">
+			<div class="container">
+				<div class="card columns small-6 fill-dark-2 large-3 large-offset-3 flex-center">
+					<div>
+						<div class="h3 text-light-0">Optimal commutes to work</div>
+						<hr class="underline">
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 		
-	<section class="section-height">
-		<pre>
-			Optimal work commutes
-		</pre>
-	</section>
-		
 	<!-- Footer Section -->
-	<section class="fill-light-1 block-space-top-bottom">
+	<section class="footer-section fill-light-1 block-space-top-bottom">
 		<div class="row">
-			<div class="container">
+			<div class="container block-space-bottom">
 				<div class="columns small-12">
 					<div class="h2 strong text-neutral-1">Quick Links</div>
 				</div>
@@ -442,49 +506,49 @@
 		</div>
 		<div class="row">
 			<div class="container">
-				<div class="columns small-6 large-3">
+				<div class="columns small-6 large-3 block-space-bottom">
 					<div class="h4 text-dark-1">Island 3BHK</div>
-
-					<div><a class="p text-red-1" href="">Floorplan</a></div>
-					<div><a class="p text-red-1" href="">Masterplan</a></div>
-					<div><a class="p text-red-1" href="">Amenities</a></div>
-					<div><a class="p text-red-1" href="">Specifications</a></div>
-					<div><a class="p text-red-1" href="">Location</a></div>
+					<hr class="underline">
+					<div><a class="link p text-red-1" href="">Floorplan</a></div>
+					<div><a class="link p text-red-1" href="">Masterplan</a></div>
+					<div><a class="link p text-red-1" href="">Amenities</a></div>
+					<div><a class="link p text-red-1" href="">Specifications</a></div>
+					<div><a class="link p text-red-1" href="">Location</a></div>
 				</div>
-				<div class="columns small-6 large-3">
+				<div class="columns small-6 large-3 block-space-bottom">
 					<div class="h4 text-dark-1">Plush 3BHK</div>
-
-					<div><a class="p text-red-1" href="">Floorplan</a></div>
-					<div><a class="p text-red-1" href="">Masterplan</a></div>
-					<div><a class="p text-red-1" href="">Amenities</a></div>
-					<div><a class="p text-red-1" href="">Specifications</a></div>
-					<div><a class="p text-red-1" href="">Location</a></div>
+					<hr class="underline">
+					<div><a class="link p text-red-1" href="">Floorplan</a></div>
+					<div><a class="link p text-red-1" href="">Masterplan</a></div>
+					<div><a class="link p text-red-1" href="">Amenities</a></div>
+					<div><a class="link p text-red-1" href="">Specifications</a></div>
+					<div><a class="link p text-red-1" href="">Location</a></div>
 				</div>
-				<div class="columns small-6 large-3">
+				<div class="columns small-6 large-3 block-space-bottom">
 					<div class="h4 text-dark-1">Elevate 3BHK</div>
-
-					<div><a class="p text-red-1" href="">Floorplan</a></div>
-					<div><a class="p text-red-1" href="">Masterplan</a></div>
-					<div><a class="p text-red-1" href="">Amenities</a></div>
-					<div><a class="p text-red-1" href="">Specifications</a></div>
-					<div><a class="p text-red-1" href="">Location</a></div>
+					<hr class="underline">
+					<div><a class="link p text-red-1" href="">Floorplan</a></div>
+					<div><a class="link p text-red-1" href="">Masterplan</a></div>
+					<div><a class="link p text-red-1" href="">Amenities</a></div>
+					<div><a class="link p text-red-1" href="">Specifications</a></div>
+					<div><a class="link p text-red-1" href="">Location</a></div>
 				</div>
-				<div class="columns small-6 large-3">
+				<div class="columns small-6 medium-4 large-3 block-space-bottom contact">
 					<div class="h4 text-dark-1">Project Office</div>
-
-					<div class="p">
+					<hr class="underline">
+					<div class="p address">
 						Sy No.34/9 - 34/13, Junnasandra, Varthur, 
 						Near Amritha College Of Engineering,
 						Bangalore - 560 035.
 					</div>
-					<div><a class="p text-red-1" href="tel:+919663396887">+91–96633–96887</a></div>
+					<div><a class="link h4 text-red-1" href="tel:+919663396887">+91–96633–96887</a></div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="container">
 				<div class="columns small-12">
-					< - Seyonii Badge - >
+					<a class="seyonii-badge" href="https://seyonii.com/" target="_blank"><img src="/media/seyonii-badge.svg"></a>
 				</div>
 			</div>
 		</div>
@@ -493,7 +557,7 @@
 	<section class="fill-light-2">
 		<div class="row">
 			<div class="container block-space-top-bottom">
-				<div class="columns small-12">
+				<div class="columns small-12 text-justify">
 					<small>
 						<span class="text-red-1">DISCLAIMER :</span> The content mentioned on this website is for general information purposes only. While enough care is taken by Klassik Enterprises Pvt Ltd to ensure that information on the website is up to date, accurate and correct, readers are requested to make their independent enquiry before relying upon the same. In no event will Klassik Enterprises offer any warranty on the information made available, or be liable for any loss or damage including without limitation, indirect or consequential loss or damage in connection with, the use of information in this website. By using or accessing the website, you agree with the Disclaimer without any qualification or limitation. Design, specifications, floor plans, brochures, 360 degree views and interactive plans etc., are subject to change without prior notice. Computer generated images; walkthroughs and render images are the artist’s impression and are an indicative of the actual designs. The contents of this website are meant to provide information to the readers of this website about ourselves including our various projects, etc. They are only for general information and are subject to change. By no stretch of imagination, the information on the website shall be construed as an advertisement and/or invitation or offer for sale. To find out more about projects/developments, please call 9663-396-887 or visit our sales office during working hours and get in touch with authorized Klassik Enterprises sales representative.
 					</small>

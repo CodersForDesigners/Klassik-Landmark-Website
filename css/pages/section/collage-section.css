@@ -34,7 +34,6 @@
 .collage-section .layer-2 .card { 
 	padding: 25px;
 	height: 150px; 
-	background-blend-mode: multiply;
 }
 
 @media( min-width: 640px )  {
