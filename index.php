@@ -231,11 +231,10 @@
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_1.png');">
 				</div>
 				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
+					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Aerodynamics to improve ventilation</div>
 							<hr class="underline">
@@ -250,11 +249,10 @@
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_2.png');">
 				</div>
 				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
+					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Large openings, more balconies, more sunlight</div>
 							<hr class="underline">
@@ -269,11 +267,10 @@
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_3.png');">
 				</div>
 				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
+					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Bright airy kitchen and utility</div>
 							<hr class="underline">
@@ -357,11 +354,10 @@
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_4.png');">
 				</div>
 				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
+					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">20% higher room volume</div>
 							<hr class="underline">
@@ -376,11 +372,10 @@
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/logo_grid_1.png');">
 				</div>
 				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
+					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Takeover a Fresh Apartment Engineering Upgrade</div>
 							<hr class="underline">
@@ -445,7 +440,7 @@
 					< - insert diagram - >
 				</div>
 				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
+					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">Aligned to Bangalore’s natural wind direction  Design Upgrade</div>
 							<hr class="underline">
@@ -461,11 +456,10 @@
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_5.png');">
 				</div>
 				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
+					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1"><span class="text-red-1">Aircraft Wing Section</span> tower design Engineering Upgrade</div>
 							<hr class="underline">
@@ -480,11 +474,10 @@
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
-				<div class="columns small-12 large-6">
-					< - insert diagram - >
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_6.png');">
 				</div>
 				<div class="columns small-12 large-6">
-					<div class="row section-height flex-center">
+					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-dark-1">8.5 acres of open, traffic-free podium Design Upgrade</div>
 							<hr class="underline">
