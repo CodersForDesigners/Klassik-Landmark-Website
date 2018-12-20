@@ -582,6 +582,37 @@ hr.underline {
 	transform: translateY(50%);
 }
 
+/* -- the "Phone number" field -- */
+.form-row.phone-field {
+	display: flex;
+	flex-wrap: wrap;
+}
+.form-row.phone-field label {
+	flex-basis: 100%;
+	margin: 0 0 0.2rem;
+}
+.form-row.phone-field .phone-country-code {
+	position: relative;
+	flex-basis: 25%;
+}
+	.form-row.phone-field .phone-country-code select {
+		width: 100%;
+	}
+	.form-row.phone-field .phone-country-code input {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		padding: 11px 7px;
+		text-align: center;
+		pointer-events: none;
+	}
+.form-row.phone-field .phone-number {
+	flex-basis: 75%;
+}
+
+
 button .icon,
 .button .icon {
 	display: inline-block;

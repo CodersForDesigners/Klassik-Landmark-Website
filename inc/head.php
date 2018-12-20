@@ -1,6 +1,9 @@
 <?php function gethead(){ ?>
 
-	<?php global $ver; ?>
+	<?php
+		global $productionEnv;
+		global $ver;
+	?>
 
 	<!--
 	*
@@ -159,20 +162,6 @@
 
 	<!--
 	*
-	*	PreFetching, PreLoading, PreBrowsing
-	*
-	- -->
-	<!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
-	<link rel="dns-prefetch" href="//example.com/">
-	<link rel="preconnect" href="https://www.example.com/">
-	<link rel="prefetch" href="https://www.example.com/">
-	<link rel="prerender" href="http://example.com/">
-	<link rel="preload" href="image.png" as="image">
-
-
-
-	<!--
-	*
 	*	Enqueue Files
 	*
 	- -->
@@ -189,5 +178,89 @@
 	<!-- Slick Carousel -->
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css<?php echo $ver ?>"/>
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css<?php echo $ver ?>"/>
+
+	<!-- The Omega instance Setup -->
+	<!-- Establish what environment this is being run in for Omega to operate -->
+	<script type="text/javascript">
+
+		// Establish the environment
+		var __envProduction = <?php echo $productionEnv ? 'true' : 'false' ?>;
+		var __envProduction = true;
+
+		// Establish global state
+		window.__OMEGA = window.__OMEGA || { };
+
+		( function ( __OMEGA ) {
+
+			var settings = __OMEGA.settings || { };
+
+				// Project
+			settings.Project = "Klassik Landmark";
+				// OTP Template
+			settings.OTPTemplate = "Klassik";
+				// API endpoint
+			settings.apiEndpoint = settings.apiEndpoint || location.origin.replace( /\/+$/, "" ) + "/omega";
+			if ( ! __envProduction ) {
+				settings.apiEndpoint = "http://omega.api.192.168.0.207.xip.io";
+			}
+			settings.apiEndpoint = "https://klassikbuild.com/omega";
+				// Base URL
+			settings.baseURL = "";
+			if ( __envProduction ) {
+				if ( document.getElementsByTagName( "base" ).length ) {
+					settings.baseURL = document.getElementsByTagName( "base" )[ 0 ].getAttribute( "href" ).replace( /\//g, "" );
+				}
+				else {
+					var urlParts = location.pathname.match( /[^/?]+/ );
+					if ( urlParts )
+						settings.baseURL = urlParts[ 0 ]
+				}
+			}
+				// Implicit prefix that an auto-generated user gets
+			settings.userImplicitNamePrefix = "AG";
+				// project base URL
+			settings.projectBaseURL = "landmark";
+				// Zoho Assignment Rule ID
+			settings.assignmentRuleId = "3261944000000278029";
+				// Before Closing Head Tag
+	    	settings.beforeClosingHeadTag = `
+	    		<!-- Google Tag Manager -->
+					<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+					new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+					j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+					'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+					})(window,document,'script','dataLayer','GTM-TKCJ5FN');<\/script>
+				<!-- End Google Tag Manager -->
+				<!-- Hotjar Tracking Code for http://klassikbuild.com -->
+					<script>
+						(function(h,o,t,j,a,r){
+							h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+							h._hjSettings={hjid:995458,hjsv:6};
+							a=o.getElementsByTagName('head')[0];
+							r=o.createElement('script');r.async=1;
+							r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+							a.appendChild(r);
+						})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+					<\/script>
+			`;
+				// After Opening Body Tag
+			settings.afterOpeningBodyTag = `
+				<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKCJ5FN"
+					height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+				<!-- End Google Tag Manager (noscript) -->
+			`;
+				// Before Closing Body Tag
+			settings.beforeClosingBodyTag = `
+				<!-- LivProp Chat -->
+					<script src="https://cwc.livserv.in/chat.js?lid=8623"><\/script>
+					<script src="https://cw1.livserv.in?did=8623&pid=1"><\/script>
+			`;
+
+			__OMEGA.settings = settings;
+
+		}( window.__OMEGA ) );
+
+	</script>
 
 <?php } ?>

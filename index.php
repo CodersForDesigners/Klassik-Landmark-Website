@@ -2,8 +2,11 @@
 
 	// :: ONLY DURING DEVELOPMENT ::
 	// debugging
-	ini_set( "display_errors", "On" );
+	ini_set( "display_errors", 1 );
 	ini_set( "error_reporting", E_ALL );
+
+	// Is this running under a production or development one?
+	$productionEnv = include __DIR__ . '/inc/env.php' ?? false;
 
 	/*
 	 * Versioning Assets to invalidate the browser cache
@@ -55,7 +58,7 @@
 			</div>
 			<div class="row">
 				<div class="card card-1 columns small-9 small-offset-3 large-6 large-offset-6 fill-light-0">
-					<div class="h2 strong text-dark-1">The only <span class="text-red-1">all 3BHK</span> apartment development</div> 
+					<div class="h2 strong text-dark-1">The only <span class="text-red-1">all 3BHK</span> apartment development</div>
 					<div class="h3 text-red-1">in the Sarjapur Road vicinity</div>
 				</div>
 			</div>
@@ -136,7 +139,7 @@
 							<div class="p block-space-bottom text-neutral-0">The 2000sft ‘Island 3BHK’ does not share any common walls with any other apartment. It is the only apartment in the vicinity that opens to the East and the West. Every lift lobby only serves 3 apartments per floor. Each lift lobby has 2 lifts, one 13 person lift and one 6 person lift.</div>
 
 							<div class="p text-light-1 fill-dark-0" style="padding: 15px;">
-								ISLAND /ˈ ʌɪlənd/ 
+								ISLAND /ˈ ʌɪlənd/
 								Noun - a thing regarded as resembling an island, especially in being isolated or detached.
 							</div>
 						</div>
@@ -144,35 +147,75 @@
 				</div>
 				<div class="columns small-12 large-6 fill-light-1">
 					<div class="row section-height block-space-top-bottom flex-center">
-						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
+						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2" data-loginner="Enquiry" data-context="Landing Page">
 							<div class="h4 text-red-1 block-space-bottom">Enquire Now</div>
-							<form>
+							<form class="js_enquiry_form js_user_required">
 								<div class="form-row">
 									<label>
 										<span class="">Name</span><br>
-										<input class="block" type="text">
+										<input class="block" type="text" name="name" required>
 										<img class="icon" src="/media/icons/name.svg">
 									</label>
 								</div>
 								<div class="form-row">
 									<label>
 										<span class="">Email</span><br>
-										<input class="block" type="text">
+										<input class="block" type="email" name="email" required>
 										<img class="icon" src="/media/icons/email.svg">
-									</label>
-								</div>
-								<div class="form-row">
-									<label>
-										<span class="">Phone</span><br>
-										<input class="block" type="text">
-										<img class="icon" src="/media/icons/phone.svg">
 									</label>
 								</div>
 								<div class="form-row">
 									<label>
 										<span class="invisible">Submit</span><br>
 										<button type="submit" class="button block fill-red-0" style="position: relative;">
-											Send
+											<span>Send</span>
+											<img class="icon" src="/media/icons/send.svg">
+										</button>
+									</label>
+								</div>
+							</form>
+							<!-- Phone Trap -->
+							<!-- Phone form -->
+							<form class="loginner_form_phone hidden">
+								<div class="form-row phone-field">
+									<label for="enquire-form-phone-field">
+										<span>Please provide your phone number</span>
+									</label>
+									<div class="phone-country-code">
+										<select class="js_phone_country_code">
+											<?php require __DIR__ . '/inc/phone-country-codes.php'; ?>
+										</select>
+										<!-- Concise phone country code label -->
+										<!-- managed in JavaScript -->
+										<input type="text" class="js_phone_country_code_label" value="(+91)">
+									</div>
+									<div class="phone-number">
+										<input id="enquire-form-phone-field" class="block js_phone_number" type="text">
+										<img class="icon" src="/media/icons/phone.svg">
+									</div>
+								</div>
+								<div class="form-row">
+									<label>
+										<span class="invisible">Submit</span><br>
+										<button type="submit" class="button block fill-red-0" style="position: relative;">
+											<span>Send</span>
+											<img class="icon" src="/media/icons/send.svg">
+										</button>
+									</label>
+								</div>
+							</form>
+							<form class="loginner_form_otp hidden">
+								<div class="form-row">
+									<label>
+										<span class="">We've sent you a One-Time Password (OTP)</span><br>
+										<input class="block" type="text">
+									</label>
+								</div>
+								<div class="form-row">
+									<label>
+										<span class="invisible">Verify</span><br>
+										<button type="submit" class="button block fill-red-0" style="position: relative;">
+											<span>Verify</span>
 											<img class="icon" src="/media/icons/send.svg">
 										</button>
 									</label>
@@ -184,7 +227,7 @@
 			</div>
 		</div>
 	</section>
-		
+
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
@@ -203,7 +246,7 @@
 			</div>
 		</div>
 	</section>
-		
+
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
@@ -222,7 +265,7 @@
 			</div>
 		</div>
 	</section>
-		
+
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
@@ -270,7 +313,7 @@
 			</div>
 		</div>
 	</section>
-		
+
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
@@ -289,7 +332,7 @@
 			</div>
 		</div>
 	</section>
-			
+
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
@@ -309,7 +352,7 @@
 			</div>
 		</div>
 	</section>
-		
+
 	<!-- Building Section -->
 	<!-- Building Section: Collage -->
 	<section class="section-height collage-section">
@@ -353,8 +396,9 @@
 			</div>
 		</div>
 	</section>
- 
+
 	<!-- <section class="diagram-section section-height fill-light-1">
+
 		<div class="row">
 			<div class="container fill-light-0">
 				<div class="columns small-12 large-6">
@@ -371,8 +415,9 @@
 				</div>
 			</div>
 		</div>
+
 	</section> -->
-		
+
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
@@ -390,7 +435,7 @@
 				</div>
 			</div>
 		</div>
-	</section> 
+	</section>
 
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
@@ -492,7 +537,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<!-- Location Section: Collage -->
 	<section class="location-section-collage fill-dark-1">
 		<div class="row layer-1">
@@ -517,7 +562,7 @@
 			</div>
 		</div>
 	</section>
-		
+
 	<!-- Footer Section -->
 	<section class="footer-section fill-light-1 block-space-top-bottom">
 		<!-- <div class="row">
@@ -561,7 +606,7 @@
 					<div class="h4 text-dark-1">Project Office</div>
 					<hr class="underline">
 					<div class="p address">
-						Sy No.34/9 - 34/13, Junnasandra, Varthur, 
+						Sy No.34/9 - 34/13, Junnasandra, Varthur,
 						Near Amritha College Of Engineering,
 						Bangalore - 560 035.
 					</div>
@@ -577,7 +622,7 @@
 			</div>
 		</div>
 	</section>
-		
+
 	<section class="fill-light-2">
 		<div class="row">
 			<div class="container block-space-top-bottom">
@@ -678,6 +723,10 @@
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
 <script type="text/javascript" src="/js/modules/form.js"></script>
 <script type="text/javascript" src="/js/modules/disclaimer.js"></script>
+<!-- Omega -->
+<script type="text/javascript" src="/js/modules/omega/utils.js"></script>
+<script type="text/javascript" src="/js/modules/omega/user.js"></script>
+<script type="text/javascript" src="/js/modules/omega/form-traps.js"></script>
 
 <script type="text/javascript">
 
