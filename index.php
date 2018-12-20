@@ -106,8 +106,8 @@
 		<div class="row layer-1">
 			<div class="columns small-12 large-6">
 				<div class="row">
-					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-photos/Klassik-Site_06.jpg');"></div>
-					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-photos/Klassik_012.jpg');"></div>
+					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Podium_01_retouched.jpg');"></div>
+					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_014_retouched.jpg');"></div>
 				</div>
 			</div>
 			<div class="photo half columns small-12 large-6" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_012_retouched.jpg');"></div>
@@ -296,8 +296,8 @@
 		<div class="row layer-1">
 			<div class="columns small-12 large-6">
 				<div class="row">
-					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-photos/Klassik-Site_06.jpg');"></div>
-					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-photos/Klassik_012.jpg');"></div>
+					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_085_retouched.jpg');"></div>
+					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_015_retouched.jpg');"></div>
 				</div>
 			</div>
 			<div class="photo half columns small-12 large-6" style="background-image: url('/media/landmark-photos/Klassik-Site_01A.jpg');"></div>
@@ -480,11 +480,11 @@
 			<div class="container">
 				<div class="columns small-12 large-3">
 					<div class="row">
-						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-photos/Klassik-Site_03.jpg');"></div>
-						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-photos/Klassik-Site_03.jpg');"></div>
+						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/location-photos/Wipro_Sarjapur.jpg');"></div>
+						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/location-photos/Ecospace.png');"></div>
 					</div>
 				</div>
-				<div class="photo half columns small-12 large-9" style="background-image: url('/media/landmark-photos/Klassik-Site_03.jpg');"></div>
+				<div class="photo half columns small-12 large-9" style="background-image: url('/media/location-photos/Infosys_Electronic.jpg');"></div>
 			</div>
 		</div>
 		<div class="row layer-2">
