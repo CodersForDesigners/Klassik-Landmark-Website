@@ -207,15 +207,15 @@
 							<form class="loginner_form_otp hidden">
 								<div class="form-row">
 									<label>
-										<span class="">We've sent you a One-Time Password (OTP)</span><br>
+										<span class="">We've sent you an OTP</span><br>
 										<input class="block" type="text">
 									</label>
 								</div>
 								<div class="form-row">
 									<label>
-										<span class="invisible">Verify</span><br>
+										<span class="invisible">Verify with OTP</span><br>
 										<button type="submit" class="button block fill-red-0" style="position: relative;">
-											<span>Verify</span>
+											<span>Verify with OTP</span>
 											<img class="icon" src="/media/icons/send.svg">
 										</button>
 									</label>
@@ -288,22 +288,62 @@
 	<section class="action-section section-height fill-red-2">
 		<div class="row">
 			<div class="action-bg container section-height fill-red-0 block-space-top-bottom" style="background-image: url('/media/diagrams/phonetrap_brochure_1.png');">
-				<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-4 large-offset-1">
+				<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-4 large-offset-1" data-loginner="Brochure" data-context="Landing Page">
 					<div class="h1 strong text-light-0 block-space-bottom">
 						Download Brochure
 					</div>
-					<form>
+					<form class="js_get_brochure">
 						<div class="form-row">
 							<label>
-								<span class="text-light-0">Phone</span><br>
-								<input class="block" type="text">
+								<a href="#" target="_blank" class="button block fill-dark-0 js_user_required" style="position: relative;">
+									Download
+									<img class="icon" src="/media/icons/send.svg">
+								</a>
+							</label>
+						</div>
+					</form>
+					<!-- Phone Trap -->
+					<!-- Phone form -->
+					<form class="loginner_form_phone hidden">
+						<div class="form-row phone-field">
+							<label for="enquire-form-phone-field">
+								<span class="text-light-0">Please provide your phone number</span>
+							</label>
+							<div class="phone-country-code">
+								<select class="js_phone_country_code">
+									<?php require __DIR__ . '/inc/phone-country-codes.php'; ?>
+								</select>
+								<!-- Concise phone country code label -->
+								<!-- managed in JavaScript -->
+								<input type="text" class="js_phone_country_code_label" value="(+91)">
+							</div>
+							<div class="phone-number">
+								<input id="enquire-form-phone-field" class="block js_phone_number" type="text">
 								<img class="icon" src="/media/icons/phone.svg">
+							</div>
+						</div>
+						<div class="form-row">
+							<label>
+								<span class="invisible">Submit</span><br>
+								<button type="submit" class="button block fill-dark-0" style="position: relative;">
+									<span>Send</span>
+									<img class="icon" src="/media/icons/send.svg">
+								</button>
+							</label>
+						</div>
+					</form>
+					<form class="loginner_form_otp hidden">
+						<div class="form-row">
+							<label>
+								<span class="text-light-0">We've sent you an OTP</span><br>
+								<input class="block" type="text">
 							</label>
 						</div>
 						<div class="form-row">
 							<label>
+								<span class="invisible">Verify with OTP</span><br>
 								<button type="submit" class="button block fill-dark-0" style="position: relative;">
-									Download
+									<span>Verify with OTP</span>
 									<img class="icon" src="/media/icons/send.svg">
 								</button>
 							</label>
@@ -721,12 +761,12 @@
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
-<script type="text/javascript" src="/js/modules/form.js"></script>
+<script type="text/javascript" src="/js/modules/forms.js"></script>
 <script type="text/javascript" src="/js/modules/disclaimer.js"></script>
 <!-- Omega -->
 <script type="text/javascript" src="/js/modules/omega/utils.js"></script>
 <script type="text/javascript" src="/js/modules/omega/user.js"></script>
-<script type="text/javascript" src="/js/modules/omega/form-traps.js"></script>
+<script type="text/javascript" src="/js/modules/form-traps.js"></script>
 
 <script type="text/javascript">
 
