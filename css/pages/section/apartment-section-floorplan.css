@@ -2,7 +2,9 @@
  * Building Section Air Quality
  */
 
-.apartment-section-floorplan {}
+.apartment-section-floorplan {
+	overflow: hidden;
+}
 
 .apartment-section-floorplan .points-roman {
 	position: relative;
@@ -38,6 +40,35 @@
 .apartment-section-floorplan .points-roman .point:nth-child(9):before { content: 'IX.'; }
 .apartment-section-floorplan .points-roman .point:nth-child(10):before { content: 'X.'; }
 
+
+.apartment-section-floorplan .layer-1 { 
+	position: relative;
+	z-index: 2;
+}
+.apartment-section-floorplan .layer-2 {
+	position: relative;
+	z-index: 1;
+}
+
+.apartment-section-floorplan .floorplan {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom left;
+	transform: scale(1.75) rotate(-25deg) translateY(15%) translateX(-10%);
+}
+
+.apartment-section-floorplan .floorplan + *,
+.apartment-section-floorplan .floorplan + * + * {
+	position: relative;
+	z-index: 2;
+}
+
 @media( min-width: 640px )  {
 	.apartment-section-floorplan .points-roman .point {
 		margin-bottom: 30px;
@@ -50,6 +81,16 @@
 }
 @media( min-width: 1040px ) {
 	.apartment-section-floorplan .points-roman .point:before { font-size: 1.1rem; }
+
+	.apartment-section-floorplan .layer-1 { 
+		z-index: 1;
+	}
+	.apartment-section-floorplan .layer-2 {
+		z-index: 2;
+	}
+	.apartment-section-floorplan .floorplan {
+		transform: scale(2) rotate(-25deg) translateY(15%) translateX(-5%);
+	}
 }
 @media( min-width: 1380px ) {
 	.apartment-section-floorplan .points-roman .point {

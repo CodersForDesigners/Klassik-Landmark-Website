@@ -78,11 +78,12 @@
 	<section class="apartment-section-floorplan section-height fill-light-0">
 		<div class="row">
 			<div class="container">
-				<div class="columns small-12 large-6 block-space-top-bottom">
+				<div class="layer-2 columns small-12 large-6 section-height block-space-top-bottom">
+					<div class="floorplan" style="background-image: url('/media/diagrams/Island_Floorplan.png');"></div>
 					<div class="h2 strong text-red-1">Island 3BHK</div>
 					<div class="label text-dark-1">2035sft of Privacy</div>
 				</div>
-				<div class="columns small-12 large-6 fill-light-1 section-height block-space-top-bottom">
+				<div class="layer-1 columns small-12 large-6 fill-light-1 section-height block-space-top-bottom">
 					<div class="row">
 						<div class="points-roman">
 							<div class="point h4 text-dark-1 columns small-8 small-offset-2 medium-6 medium-offset-3 large-8 large-offset-2">Aerodynamic Tower Boosts Ventilation</div>
@@ -241,11 +242,30 @@
 		</div>
 	</section>
 
-	<section class="section-height fill-red-2">
+	<section class="action-section section-height fill-red-2">
 		<div class="row">
-			<div class="container section-height fill-red-0">
-				<div class="columns small-12 large-6">
-					< - Action Section - >
+			<div class="action-bg container section-height fill-red-0 block-space-top-bottom" style="background-image: url('/media/diagrams/phonetrap_brochure_1.png');">
+				<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-4 large-offset-1">
+					<div class="h1 strong text-light-0 block-space-bottom">
+						Download Brochure
+					</div>
+					<form>
+						<div class="form-row">
+							<label>
+								<span class="text-light-0">Phone</span><br>
+								<input class="block" type="text">
+								<img class="icon" src="/media/icons/phone.svg">
+							</label>
+						</div>
+						<div class="form-row">
+							<label>
+								<button type="submit" class="button block fill-dark-0" style="position: relative;">
+									Download
+									<img class="icon" src="/media/icons/send.svg">
+								</button>
+							</label>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -334,7 +354,7 @@
 		</div>
 	</section>
  
-	<section class="diagram-section section-height fill-light-1">
+	<!-- <section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
 				<div class="columns small-12 large-6">
@@ -351,7 +371,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 		
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
@@ -433,7 +453,7 @@
 		</div>
 	</section>
 
-	<section class="section-height fill-red-2">
+	<!-- <section class="section-height fill-red-2">
 		<div class="row">
 			<div class="container section-height fill-red-0">
 				<div class="columns small-12 large-6">
@@ -441,7 +461,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- Location Section -->
 	<section class="location-section section-height fill-dark-1">
@@ -455,8 +475,7 @@
 		</div>
 		<div class="row layer-1">
 			<div class="container">
-				<div class="columns small-12 large-9 fill-light-0 section-height">
-					< - insert map texture - > 
+				<div class="location-map columns small-12 large-9 section-height" style="background-image: url('/media/diagrams/Location-Map.png');">
 				</div>
 				<div class="columns small-12 large-3">
 					<div class="points row block-space-top-bottom">
@@ -501,16 +520,16 @@
 		
 	<!-- Footer Section -->
 	<section class="footer-section fill-light-1 block-space-top-bottom">
-		<div class="row">
+		<!-- <div class="row">
 			<div class="container block-space-bottom">
 				<div class="columns small-12">
 					<div class="h2 strong text-neutral-1">Quick Links</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div class="row">
 			<div class="container">
-				<div class="columns small-6 large-3 block-space-bottom">
+				<!-- <div class="columns small-6 large-3 block-space-bottom">
 					<div class="h4 text-dark-1">Island 3BHK</div>
 					<hr class="underline">
 					<div><a class="link p text-red-1" href="">Floorplan</a></div>
@@ -536,8 +555,9 @@
 					<div><a class="link p text-red-1" href="">Amenities</a></div>
 					<div><a class="link p text-red-1" href="">Specifications</a></div>
 					<div><a class="link p text-red-1" href="">Location</a></div>
-				</div>
-				<div class="columns small-6 medium-4 large-3 block-space-bottom contact">
+				</div> -->
+				<!-- <div class="columns small-6 medium-4 large-3 block-space-bottom contact"> -->
+				<div class="columns small-6 medium-4 large-3 block-space-bottom contact" style="text-align: left !important;"><!-- M: Delete this line -->
 					<div class="h4 text-dark-1">Project Office</div>
 					<hr class="underline">
 					<div class="p address">
@@ -562,6 +582,9 @@
 		<div class="row">
 			<div class="container block-space-top-bottom">
 				<div class="columns small-12 text-justify">
+					<div class="block-space-bottom">
+						<small class="text-dark-0">PHASE 2 - PRM/KA/RERA/1251/446/PR/171015/000760 | MARKETED BY SEYONII - PRM/KA/RERA/1251/309/AG/180727/001045</small>
+					</div>
 					<small>
 						<span class="text-red-1">DISCLAIMER :</span> The content mentioned on this website is for general information purposes only. While enough care is taken by Klassik Enterprises Pvt Ltd to ensure that information on the website is up to date, accurate and correct, readers are requested to make their independent enquiry before relying upon the same. In no event will Klassik Enterprises offer any warranty on the information made available, or be liable for any loss or damage including without limitation, indirect or consequential loss or damage in connection with, the use of information in this website. By using or accessing the website, you agree with the Disclaimer without any qualification or limitation. Design, specifications, floor plans, brochures, 360 degree views and interactive plans etc., are subject to change without prior notice. Computer generated images; walkthroughs and render images are the artist’s impression and are an indicative of the actual designs. The contents of this website are meant to provide information to the readers of this website about ourselves including our various projects, etc. They are only for general information and are subject to change. By no stretch of imagination, the information on the website shall be construed as an advertisement and/or invitation or offer for sale. To find out more about projects/developments, please call 9663-396-887 or visit our sales office during working hours and get in touch with authorized Klassik Enterprises sales representative.
 					</small>

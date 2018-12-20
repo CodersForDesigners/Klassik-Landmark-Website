@@ -49,6 +49,12 @@
 
 .location-section .layer-2 .card { padding: 20px; }
 
+.location-section .location-map {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
 @media( min-width: 640px )  {
 	.location-section .layer-2 .card { padding: 30px; }
 	.location-section .points .point {
