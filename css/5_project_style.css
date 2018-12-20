@@ -107,6 +107,7 @@ CMYK: 94, 77, 49, 51
 	--dark-0: #344E66;
 	--dark-1: #193956;
 	--dark-2: #142B3F;
+	--dark-2-75: rgba(20, 43, 63, 0.75);
 
 }
 
@@ -410,6 +411,7 @@ select:focus {
 .fill-dark-0 { background-color: var(--dark-0); }
 .fill-dark-1 { background-color: var(--dark-1); }
 .fill-dark-2 { background-color: var(--dark-2); }
+.fill-dark-2-75 { background-color: var(--dark-2-75); }
 
 
 
