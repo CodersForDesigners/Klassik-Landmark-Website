@@ -54,7 +54,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="page-wrapper" data-page="<?php echo $viewName ?>"><!-- Page Wrapper -->
 
 	<!-- Navigation Section -->
-	<section class="navigation-section"><!-- Add Show Class Here -->
+	<section class="navigation-section js_navigation_section"><!-- Add Show Class Here -->
 		<div class="row">
 			<div class="scrollee">
 				<div class="container">
@@ -792,6 +792,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- JS Modules -->
 <!-- <script type="text/javascript" src="/js/modules/device-charge.js"></script> -->
+<script type="text/javascript" src="/js/modules/navigation.js"></script>
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>

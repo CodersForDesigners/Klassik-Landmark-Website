@@ -2,7 +2,7 @@
  * Navigation Section
  */
 
-.navigation-section { 
+.navigation-section {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -12,8 +12,11 @@
 	transition: transform .3s .6s ease-out;
 }
 
-.navigation-section.show,
 .navigation-section:hover {
+	transform: translateY(0) !important;
+	transition: transform .3s ease-out;
+}
+.navigation-section.show {
 	transform: translateY(0);
 	transition: transform .3s ease-out;
 }
@@ -172,7 +175,7 @@
 	.navigation-section .row .scrollee .container .link:first-child {
 		margin-left: var(--container-margin);
 	}
-		
+
 	.navigation-section .row .scrollee .container .link:last-child {
 		margin-right: var(--container-margin);
 	}
@@ -180,7 +183,7 @@
 
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {
-	.navigation-section.show,	
+	.navigation-section.show,
 	.navigation-section {
 		transform: translateY(50px);
 	}
@@ -247,8 +250,8 @@
 
 }
 @media( min-width: 1380px ) {
-	.navigation-section.show,	
-	.navigation-section { 
+	.navigation-section.show,
+	.navigation-section {
 		transform: translateY(60px);
 	}
 
