@@ -13,6 +13,19 @@
 
 /*
  *
+ * Mask away the URLs from the anchor elements until after the traps are "traversed"
+ *
+ */
+var $trapSites = $( ".loginner_form_phone" ).closest( "[ data-loginner ]" );
+$trapSites.find( "a" ).each( function ( _i, domAnchor ) {
+	var $anchor = $( domAnchor );
+	var url = $anchor.attr( "href" );
+	$anchor.removeAttr( "href" );
+	$anchor.data( "href", url );
+} );
+
+/*
+ *
  * Wire in the phone country code UI
  *
  */
@@ -154,6 +167,14 @@ Loginner.registerLoginPrompt( "Brochure", {
 		$( this )
 			.find( "input, select, button" )
 			.prop( "disabled", true )
+
+		// Restore the URLs from the anchor elements
+		var $trapSite = $( this ).closest( "[ data-loginner ]" );
+		$trapSite.find( "a" ).each( function ( _i, domAnchor ) {
+			var $anchor = $( domAnchor );
+			var url = $anchor.data( "href" );
+			$anchor.attr( "href", url );
+		} );
 
 		// Show and Submit the underlying Brochure download button
 		$( this ).addClass( "hidden" );

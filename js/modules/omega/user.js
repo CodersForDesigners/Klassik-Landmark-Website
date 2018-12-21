@@ -123,9 +123,18 @@ function isUserLoggedIn () {
 
 function triggerAuthFlowIfRequired ( event ) {
 
+	var loginPrompt = $( event.target ).closest( "[ data-loginner ]" ).data( "loginner" );
+
 	// If the user is logged in, let the user through
-	if ( isUserLoggedIn() )
+	if ( isUserLoggedIn() ) {
+		var $trapSite = $( this ).closest( "[ data-loginner ]" );
+		$trapSite.find( "a" ).each( function ( _i, domAnchor ) {
+			var $anchor = $( domAnchor );
+			var url = $anchor.data( "href" );
+			$anchor.attr( "href", url );
+		} );
 		return;
+	}
 
 	// If the user **is not** logged in, but limited preview(s) are being allowed
 	// 		then also let the user through
@@ -148,7 +157,6 @@ function triggerAuthFlowIfRequired ( event ) {
 	event.stopImmediatePropagation();
 
 	// Prompt the user to "log in"
-	var loginPrompt = $( event.target ).closest( "[ data-loginner ]" ).data( "loginner" );
 	if ( Loginner.prompts[ loginPrompt ] )
 		Loginner.prompts[ loginPrompt ].onTrigger( event );
 	$( document ).trigger( "user/login/prompt", { domLoginPromptTrigger: event.target } );

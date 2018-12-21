@@ -333,7 +333,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<form class="js_get_brochure">
 						<div class="form-row">
 							<label>
-								<a href="#" target="_blank" class="button block fill-dark-2 js_user_required" style="position: relative;">
+								<a href="download/klassik_brochure.pdf" target="_blank" class="button block fill-dark-2 js_user_required" style="position: relative;">
 									Download
 									<img class="icon" src="/media/icons/pdf.svg">
 								</a>
