@@ -36,13 +36,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Page Title | Page Name -->
-	<title>Page Title <?php echo ( $viewName != "404" ? " | " . $viewName : "" ) ?></title>
+	<title>Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road</title>
 
 	<?php echo gethead(); ?>
 
 </head>
 
 <body id="body" class="body">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKCJ5FN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!--  ★  MARKUP GOES HERE  ★  -->
 
@@ -771,6 +776,9 @@ $(document).ready(function(){
 
 <!-- Other Modules -->
 <?php // require __DIR__ . '/inc/can-user-hover.php' ?>
+	<!-- LivProp Chat -->
+<script src="https://cwc.livserv.in/chat.js?lid=8623"></script>
+<script src="https://cw1.livserv.in?did=8623&pid=1"></script>
 
 
 </body>

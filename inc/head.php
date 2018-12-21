@@ -14,7 +14,7 @@
 	<meta name="subject" content="your document's subject">
 	<!-- Short description of the document (limit to 150 characters) -->
 	<!-- This content *may* be used as a part of search engine results. -->
-	<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Excepteur sint occaecat cupidatat non proident.">
+	<meta content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive." name="description">
 	<!-- Key Words -->
 	<meta name="keywords" content="Keyword_A, Keyword_B, Keyword_C, Keyword_D, Keyword_E">
 
@@ -30,9 +30,9 @@
 	<link rel="author" href="humans.txt">
 
 	<!-- Provides information about an author or another person -->
-	<link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
+<!-- 	<link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
 	<link rel="me" href="mailto:name@example.com">
-	<link rel="me" href="sms:+15035550125">
+	<link rel="me" href="sms:+15035550125"> -->
 
 
 
@@ -54,7 +54,7 @@
 	<meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
 	<meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
 	<!-- Links to an AMP HTML version of the current document -->
-	<link rel="amphtml" href="http://example.com/path/to/amp-version.html">
+	<!-- <link rel="amphtml" href="http://example.com/path/to/amp-version.html"> -->
 
 
 
@@ -94,15 +94,8 @@
 	*
 	- -->
 	<!-- Facebook Open Graph -->
-	<meta property="fb:app_id" content="123456789">
-	<meta property="og:url" content="http://example.com/page.html">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Content Title">
-	<meta property="og:image" content="http://example.com/image.jpg">
-	<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Excepteur sint occaecat cupidatat non proident.">
-	<meta property="og:site_name" content="Site Name">
-	<meta property="og:locale" content="en_US">
-	<meta property="article:author" content="">
+	<meta content="Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road" property="og:title">
+	<meta content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive." property="og:description">
 
 
 
@@ -178,6 +171,28 @@
 	<!-- Slick Carousel -->
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css<?php echo $ver ?>"/>
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css<?php echo $ver ?>"/>
+
+	<!-- Google Tag Manager -->
+		<script>
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-TKCJ5FN');
+		</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Hotjar Tracking Code for http://klassikbuild.com -->
+		<script>
+			(function(h,o,t,j,a,r){
+				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+				h._hjSettings={hjid:995458,hjsv:6};
+				a=o.getElementsByTagName('head')[0];
+				r=o.createElement('script');r.async=1;
+				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
 
 	<!-- The Omega instance Setup -->
 	<!-- Establish what environment this is being run in for Omega to operate -->
