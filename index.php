@@ -53,7 +53,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row">
 			<div class="scrollee">
 				<div class="container">
-					<a href="pricing" target="_blank" class="link pricing columns small-3 js_track" data-url="d-pricing">
+					<a href="landmark/pricing" target="_blank" class="link pricing columns small-3 js_track" data-url="d-pricing">
 						<div class="title label text-light-0">Download Price</div>
 						<div class="sub-title small text-neutral-0">Real-time Availability</div>
 						<!-- <hr class="dash"> -->
