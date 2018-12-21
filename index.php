@@ -13,11 +13,6 @@
 	 */
 	$ver = '?v=20181126';
 
-	// get info on the request
-	$view = require "server/pageless.php";
-	$viewName = $view[ 0 ];
-	$viewPath = $view[ 1 ];
-
 	// included external php files with functions.
 	require ('inc/head.php');
 	require ('inc/lazaro.php'); /* -- Lazaro disclaimer and footer -- */
@@ -714,7 +709,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 	<!-- Lazaro Signature -->
-	<?php lazaro_signature(); ?>
+	<?php // lazaro_signature(); ?>
 	<!-- END : Lazaro Signature -->
 
 </div><!-- END : Page Wrapper -->
