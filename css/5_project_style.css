@@ -95,9 +95,12 @@ CMYK: 94, 77, 49, 51
 
 
 :root {
+	/* -- Colors -- */
 	--red-0: #F75C7A;
 	--red-1: #FC425D;
+	--red-1-75: rgba(252, 66, 93, 0.75);
 	--red-2: #D33755;
+	--red-2-75: rgba(211, 55, 85, 0.75);
 	--light-0: #FFFFFF;
 	--light-1: #F5F7F8;
 	--light-2: #E7EAED;
@@ -106,9 +109,13 @@ CMYK: 94, 77, 49, 51
 	--neutral-2: #8192A2;
 	--dark-0: #344E66;
 	--dark-1: #193956;
+	--dark-1-75: rgba(25, 57, 86, 0.75);
 	--dark-2: #142B3F;
 	--dark-2-75: rgba(20, 43, 63, 0.75);
 
+	/* -- -- */
+	--container-width: 300px;
+	--container-margin: calc((100vw - var(--container-width))/2);
 }
 
 
@@ -401,7 +408,10 @@ select:focus {
 
 .fill-red-0 { background-color: var(--red-0); }
 .fill-red-1 { background-color: var(--red-1); }
+.fill-red-1-75 { background-color: var(--red-1-75); }
+.fill-red-1-75 { background-color: var(--red-1-75); }
 .fill-red-2 { background-color: var(--red-2); }
+.fill-red-2-75 { background-color: var(--red-2-75); }
 .fill-light-0 { background-color: var(--light-0); }
 .fill-light-1 { background-color: var(--light-1); }
 .fill-light-2 { background-color: var(--light-2); }

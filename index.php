@@ -53,6 +53,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div id="page-wrapper" data-page="<?php echo $viewName ?>"><!-- Page Wrapper -->
 
+	<!-- Navigation Section -->
+	<section class="navigation-section"><!-- Add Show Class Here -->
+		<div class="row">
+			<div class="scrollee">
+				<div class="container">
+					<a href="" class="link pricing columns small-3">
+						<div class="title label text-light-0">Download Price</div>
+						<div class="sub-title small text-neutral-0">Real-time Availability</div>
+						<!-- <hr class="dash"> -->
+						<!-- <div class="description small text-light-0"></div> -->
+						<div class="icon" style="background-image: url('/media/icons/download.svg');"></div>
+					</a>
+					<a href="" class="no-pointer link variant columns small-3 active">
+						<div class="title label text-light-0">Island 3BHK</div>
+						<div class="sub-title small text-neutral-0">2035sft to 2140sft</div>
+						<hr class="dash">
+						<div class="description small text-light-0">READY TO MOVE IN</div>
+					</a>
+					<a href="" class="no-pointer link variant columns small-3">
+						<div class="title label text-light-0">Plush 3BHK</div>
+						<div class="sub-title small text-neutral-0">1600sft to 2000sft</div>
+						<hr class="dash">
+						<div class="description small text-light-0">READY TO MOVE IN</div>
+					</a>
+					<a href="" class="no-pointer link variant columns small-3">
+						<div class="title label text-light-0">Elevate 3BHK</div>
+						<div class="sub-title small text-neutral-0">1400sft to 1600sft</div>
+						<hr class="dash">
+						<div class="description small text-light-0">READY IN DEC 2019</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
 	<!-- Landing Section -->
 	<section class="landing-section section-height" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_048_retouched_extendedsky.jpg');">
 		<div class="container">
