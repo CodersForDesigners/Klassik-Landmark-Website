@@ -89,7 +89,7 @@ Loginner.registerLoginPrompt( "Enquiry", {
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
 	onOTPVerified: function ( context, phoneNumber ) {
-		var url = "user/new/" + context.toLowerCase().replace( /[\s|]+/g, "-" );
+		var url = "enquire-now";
 		__OMEGA.utils.trackPageVisit( url );
 	},
 	onLogin: function ( user, context ) {
@@ -159,7 +159,7 @@ Loginner.registerLoginPrompt( "Brochure", {
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
 	onOTPVerified: function ( context, phoneNumber ) {
-		var url = "user/new/" + context.toLowerCase().replace( /[\s|]+/g, "-" );
+		var url = "brochure";
 		__OMEGA.utils.trackPageVisit( url );
 	},
 	onLogin: function ( user, context ) {
