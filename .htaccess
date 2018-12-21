@@ -7,17 +7,30 @@ RewriteEngine On
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" -f
 RewriteRule .? "-" [QSA,L]
 
-# if the URI does not have a trailing slash,
-# and if it is a GET request,
-# but if it does not have a query string,
-# then append a trailing slash, and trigger a re-direct
-RewriteCond %{REQUEST_URI} !/$
-RewriteCond %{REQUEST_METHOD} GET [NC]
-RewriteCond %{QUERY_STRING} ^\??$
-RewriteRule .? %{REQUEST_URI}/ [QSA,R=301,L]
+# if the URI maps to the home page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ^/?$ index.php [QSA,L]
+
+# An empty page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ((^/?)|/)blank/(.*)$ pages/virtually-empty.php [QSA,L]
+
+# A page for Tracking and Analytics
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ((^/?)|/)trac/(.*)$ pages/virtually-empty.php [QSA,L]
+
+# The Pricing page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ^/?pricing(/.*)?$ http://%{HTTP_HOST}/landmark-pricing/pricing$1 [P]
+# RewriteRule ^/?login$ http://%{HTTP_HOST}/omega/login [R=301,QSA,L,NC]
+
+# The Quotes page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ^/?quote$ http://%{HTTP_HOST}/landmark-pricing/quote [P]
+# RewriteRule ^/?login$ http://%{HTTP_HOST}/omega/login [R=301,QSA,L,NC]
 
 # the catch-all "else" block
-# forward the request to index.php; it will do the heavy-lifting
-RewriteRule .? index.php [QSA,L]
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule .? /landmark [R=302,QSA,L]
 
 </IfModule>
