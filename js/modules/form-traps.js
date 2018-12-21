@@ -117,12 +117,9 @@ Loginner.registerLoginPrompt( "Brochure", {
 		$brochureFormSite
 			.find( ".js_get_brochure" )
 			.addClass( "hidden" );
-
 		$brochureFormSite
 			.find( ".loginner_form_phone" )
-				.removeClass( "hidden" )
-				.find( ".js_phone_number" )
-					.get( 0 ).focus();
+				.removeClass( "hidden" );
 	},
 	onPhoneValidationError: function ( message ) {
 		__OMEGA.utils.notify( message, {
