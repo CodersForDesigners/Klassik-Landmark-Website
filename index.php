@@ -553,12 +553,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<div class="point h4 text-dark-1">Aligned With 80% Of Bangalore’s Wind</div>
 								<div class="point h4 text-dark-1">Privacy For Ground Floor Flats</div>
 							</div>
-							<div class="air-quality-certificate columns small-10 small-offset-1 medium-5 medium-offset-3 large-7 large-offset-2">
+							<div class="air-quality-certificate columns small-10 small-offset-1 medium-5 medium-offset-3 large-7 large-offset-2" data-loginner="Air Certificate" data-context="Landing Page">
 								<div class="title p text-red-1">Pollution Board Air Quality Certificate:</div>
-								<button class="button block fill-dark-2">
+								<a href="download/klassik_airquality_web.pdf" target="_blank" class="button block fill-dark-2 js_user_required js_get_air_certificate">
 									Download
 									<img class="icon" src="/media/icons/certificate.svg">
-								</button>
+								</a>
+								<!-- Phone Trap -->
+								<!-- Phone form -->
+								<form class="loginner_form_phone hidden">
+									<div class="form-row phone-field">
+										<label for="enquire-form-phone-field">
+											<span class="text-dark-0">Please provide your phone number</span>
+										</label>
+										<div class="phone-country-code">
+											<select class="js_phone_country_code">
+												<?php require __DIR__ . '/inc/phone-country-codes.php'; ?>
+											</select>
+											<!-- Concise phone country code label -->
+											<!-- managed in JavaScript -->
+											<input type="text" class="js_phone_country_code_label" value="(+91)">
+										</div>
+										<div class="phone-number">
+											<input id="enquire-form-phone-field" class="block js_phone_number" type="text">
+											<img class="icon" src="/media/icons/phone.svg">
+										</div>
+									</div>
+									<div class="form-row">
+										<label>
+											<span class="invisible">Submit</span><br>
+											<button type="submit" class="button block fill-dark-0" style="position: relative;">
+												<span>Send</span>
+												<img class="icon" src="/media/icons/send.svg">
+											</button>
+										</label>
+									</div>
+								</form>
+								<form class="loginner_form_otp hidden">
+									<div class="form-row">
+										<label>
+											<span class="text-dark-0">We've sent you an OTP</span><br>
+											<input class="block" type="text">
+										</label>
+									</div>
+									<div class="form-row">
+										<label>
+											<span class="invisible">Verify with OTP</span><br>
+											<button type="submit" class="button block fill-dark-0" style="position: relative;">
+												<span>Verify with OTP</span>
+												<img class="icon" src="/media/icons/send.svg">
+											</button>
+										</label>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>

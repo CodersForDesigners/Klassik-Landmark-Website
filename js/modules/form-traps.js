@@ -182,6 +182,79 @@ Loginner.registerLoginPrompt( "Brochure", {
 	}
 } );
 
+
+/* -- Air Quality Certificate -- */
+var $airCertificateFormSite = $( "[ data-loginner = 'Air Certificate' ]" );
+Loginner.registerLoginPrompt( "Air Certificate", {
+	onTrigger: function ( event ) {
+		$airCertificateFormSite
+			.find( ".js_get_air_certificate" )
+			.addClass( "hidden" );
+		$airCertificateFormSite
+			.find( ".loginner_form_phone" )
+				.removeClass( "hidden" );
+	},
+	onPhoneValidationError: function ( message ) {
+		__OMEGA.utils.notify( message, {
+			level: "error",
+			context: "Login Prompt"
+		} );
+		console.log( message )
+	},
+	onPhoneSend: function () {
+		$( this ).find( "[ type = submit ] span" ).text( "Sending" );
+	},
+	onShowOTP: function ( domPhoneForm, domOTPForm ) {
+		$( domPhoneForm ).addClass( "hidden" );
+		$( domOTPForm ).removeClass( "hidden" );
+	},
+	onOTPSend: function () {
+		$( this ).find( "[ type = submit ] span" ).text( "Sending" );
+	},
+	onPhoneError: function ( code, message ) {
+		__OMEGA.utils.notify( message, {
+			level: "error",
+			context: "Login Prompt"
+		} );
+		console.log( message )
+		$( this ).find( "[ type = submit ] span" ).text( "Send" );
+		$( this ).find( "input, select, button" ).prop( "disabled", false );
+	},
+	onOTPError: function ( code, message ) {
+		__OMEGA.utils.notify( message, {
+			level: "error",
+			context: "Login Prompt"
+		} );
+		$( this ).find( "[ type = submit ] span" ).text( "Send" );
+		$( this ).find( "input, select, button" ).prop( "disabled", false );
+	},
+	onOTPVerified: function ( context, phoneNumber ) {
+		var url = "aq-certificate";
+		__OMEGA.utils.trackPageVisit( url );
+	},
+	onLogin: function ( user, context ) {
+
+		$( this )
+			.find( "input, select, button" )
+			.prop( "disabled", true )
+
+		// Restore the URLs from the anchor elements
+		var $trapSite = $( this ).closest( "[ data-loginner ]" );
+		$trapSite.find( "a" ).each( function ( _i, domAnchor ) {
+			var $anchor = $( domAnchor );
+			var url = $anchor.data( "href" );
+			$anchor.attr( "href", url );
+		} );
+
+		// Show and Submit the underlying Brochure download button
+		$( this ).addClass( "hidden" );
+		$airCertificateFormSite
+			.find( ".js_get_air_certificate" )
+			.removeClass( "hidden" );
+
+	}
+} );
+
 /* -/-/-/-/- CODE ENDS HERE -/-/-/-/- */
 
 
