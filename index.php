@@ -744,7 +744,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!--  ☠  MARKUP ENDS HERE  ☠  -->
 
-<?php lazaro_disclaimer(); ?>
+<?php //lazaro_disclaimer(); ?>
 
 
 
