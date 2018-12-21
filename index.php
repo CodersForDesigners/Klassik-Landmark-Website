@@ -208,7 +208,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<div class="form-row">
 									<label>
 										<span class="invisible">Submit</span><br>
-										<button type="submit" class="button block fill-red-0" style="position: relative;">
+										<button type="submit" class="button block fill-red-1" style="position: relative;">
 											<span>Send</span>
 											<img class="icon" src="/media/icons/send.svg">
 										</button>
@@ -333,9 +333,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<form class="js_get_brochure">
 						<div class="form-row">
 							<label>
-								<a href="#" target="_blank" class="button block fill-dark-0 js_user_required" style="position: relative;">
+								<a href="#" target="_blank" class="button block fill-dark-2 js_user_required" style="position: relative;">
 									Download
-									<img class="icon" src="/media/icons/send.svg">
+									<img class="icon" src="/media/icons/pdf.svg">
 								</a>
 							</label>
 						</div>
@@ -560,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</div>
 							<div class="air-quality-certificate columns small-10 small-offset-1 medium-5 medium-offset-3 large-7 large-offset-2">
 								<div class="title p text-red-1">Pollution Board Air Quality Certificate:</div>
-								<button class="button block">
+								<button class="button block fill-dark-2">
 									Download
 									<img class="icon" src="/media/icons/certificate.svg">
 								</button>
