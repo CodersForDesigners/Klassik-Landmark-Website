@@ -787,6 +787,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- JS Modules -->
 <!-- <script type="text/javascript" src="/js/modules/device-charge.js"></script> -->
+<script type="text/javascript" src="/js/tracking.js" defer></script>
 <script type="text/javascript" src="/js/modules/navigation.js"></script>
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
