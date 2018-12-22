@@ -62,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</a>
 					<a href="" class="no-pointer link variant columns small-3 active">
 						<div class="title label text-light-0">Island 3BHK</div>
-						<div class="sub-title small text-neutral-0">2035sft to 2140sft</div>
+						<div class="sub-title small text-neutral-0">2035sft to 2170sft</div>
 						<hr class="dash">
 						<div class="description small text-light-0">READY TO MOVE IN</div>
 					</a>
