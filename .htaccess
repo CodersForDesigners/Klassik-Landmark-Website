@@ -21,12 +21,12 @@ RewriteRule ((^/?)|/)trac/(.*)$ pages/virtually-empty.php [QSA,L]
 
 # The Pricing page
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
-RewriteRule ^/?pricing(/.*)?$ http://%{HTTP_HOST}/landmark-pricing/pricing$1 [P]
+RewriteRule ^/?pricing(/.*)?$ https://%{HTTP_HOST}/landmark-pricing/pricing$1 [P]
 # RewriteRule ^/?login$ http://%{HTTP_HOST}/omega/login [R=301,QSA,L,NC]
 
 # The Quotes page
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
-RewriteRule ^/?quote$ http://%{HTTP_HOST}/landmark-pricing/quote [P]
+RewriteRule ^/?quote$ https://%{HTTP_HOST}/landmark-pricing/quote [P]
 # RewriteRule ^/?login$ http://%{HTTP_HOST}/omega/login [R=301,QSA,L,NC]
 
 # the catch-all "else" block
