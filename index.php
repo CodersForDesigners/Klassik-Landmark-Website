@@ -11,7 +11,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20181126';
+	$ver = '?v=20190103';
 
 	// included external php files with functions.
 	require ('inc/head.php');
@@ -58,7 +58,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="sub-title small text-neutral-0">Real-time Availability</div>
 						<!-- <hr class="dash"> -->
 						<!-- <div class="description small text-light-0"></div> -->
-						<div class="icon" style="background-image: url('/media/icons/download.svg');"></div>
+						<div class="icon" style="background-image: url('/media/icons/download.svg<?php echo $ver ?>');"></div>
 					</a>
 					<a href="" class="no-pointer link variant columns small-3 active">
 						<div class="title label text-light-0">Island 3BHK</div>
@@ -85,11 +85,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 	<!-- Landing Section -->
-	<section class="landing-section section-height" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_048_retouched_extendedsky.jpg');">
+	<section class="landing-section section-height" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_048_retouched_extendedsky.jpg<?php echo $ver ?>');">
 		<div class="container">
 			<div class="row">
 				<div class="card-0 columns small-3 fill-light-0 large-2 large-offset-4">
-					<img class="block" src="/media/klassik-logo-color-light.svg">
+					<img class="block" src="/media/klassik-logo-color-light.svg<?php echo $ver ?>">
 				</div>
 			</div>
 			<div class="row">
@@ -118,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row">
 			<div class="container">
 				<div class="layer-2 columns small-12 large-6 section-height block-space-top-bottom">
-					<div class="floorplan" style="background-image: url('/media/diagrams/Island_Floorplan.png');"></div>
+					<div class="floorplan" style="background-image: url('/media/diagrams/Island_Floorplan.png<?php echo $ver ?>');"></div>
 					<div class="h2 strong text-red-1">Island 3BHK</div>
 					<div class="label text-dark-1">2035sft of Privacy</div>
 				</div>
@@ -146,11 +146,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row layer-1">
 			<div class="columns small-12 large-6">
 				<div class="row">
-					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Podium_01_retouched.jpg');"></div>
-					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_014_retouched.jpg');"></div>
+					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Podium_01_retouched.jpg<?php echo $ver ?>');"></div>
+					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_014_retouched.jpg<?php echo $ver ?>');"></div>
 				</div>
 			</div>
-			<div class="photo half columns small-12 large-6" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_012_retouched.jpg');"></div>
+			<div class="photo half columns small-12 large-6" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_012_retouched.jpg<?php echo $ver ?>');"></div>
 		</div>
 		<div class="row layer-2">
 			<div class="container">
@@ -190,14 +190,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<label>
 										<span class="">Name</span><br>
 										<input class="block" type="text" name="name" required>
-										<img class="icon" src="/media/icons/name.svg">
+										<img class="icon" src="/media/icons/name.svg<?php echo $ver ?>">
 									</label>
 								</div>
 								<div class="form-row">
 									<label>
 										<span class="">Email</span><br>
 										<input class="block" type="email" name="email" required>
-										<img class="icon" src="/media/icons/email.svg">
+										<img class="icon" src="/media/icons/email.svg<?php echo $ver ?>">
 									</label>
 								</div>
 								<div class="form-row">
@@ -205,7 +205,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<span class="invisible">Submit</span><br>
 										<button type="submit" class="button block fill-red-1" style="position: relative;">
 											<span>Send</span>
-											<img class="icon" src="/media/icons/send.svg">
+											<img class="icon" src="/media/icons/send.svg<?php echo $ver ?>">
 										</button>
 									</label>
 								</div>
@@ -227,7 +227,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									</div>
 									<div class="phone-number">
 										<input id="enquire-form-phone-field" class="block js_phone_number" type="text">
-										<img class="icon" src="/media/icons/phone.svg">
+										<img class="icon" src="/media/icons/phone.svg<?php echo $ver ?>">
 									</div>
 								</div>
 								<div class="form-row">
@@ -235,7 +235,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<span class="invisible">Submit</span><br>
 										<button type="submit" class="button block fill-red-0" style="position: relative;">
 											<span>Send</span>
-											<img class="icon" src="/media/icons/send.svg">
+											<img class="icon" src="/media/icons/send.svg<?php echo $ver ?>">
 										</button>
 									</label>
 								</div>
@@ -252,7 +252,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<span class="invisible">Verify with OTP</span><br>
 										<button type="submit" class="button block fill-red-0" style="position: relative;">
 											<span>Verify with OTP</span>
-											<img class="icon" src="/media/icons/send.svg">
+											<img class="icon" src="/media/icons/send.svg<?php echo $ver ?>">
 										</button>
 									</label>
 								</div>
@@ -267,7 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
-				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_1.png');">
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_1.png<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
@@ -285,7 +285,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
-				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_2.png');">
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_2.png<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
@@ -303,7 +303,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
-				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_3.png');">
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_3.png<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
@@ -320,7 +320,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<section class="action-section section-height fill-red-2">
 		<div class="row">
-			<div class="action-bg container section-height fill-red-0 block-space-top-bottom" style="background-image: url('/media/diagrams/phonetrap_brochure_1.png');">
+			<div class="action-bg container section-height fill-red-0 block-space-top-bottom" style="background-image: url('/media/diagrams/phonetrap_brochure_1.png<?php echo $ver ?>');">
 				<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-4 large-offset-1" data-loginner="Brochure" data-context="Landing Page">
 					<div class="h1 strong text-light-0 block-space-bottom">
 						Download Brochure
@@ -330,7 +330,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<label>
 								<a href="download/klassik_brochure.pdf" target="_blank" class="button block fill-dark-2 js_user_required" style="position: relative;">
 									Download
-									<img class="icon" src="/media/icons/pdf.svg">
+									<img class="icon" src="/media/icons/pdf.svg<?php echo $ver ?>">
 								</a>
 							</label>
 						</div>
@@ -352,7 +352,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</div>
 							<div class="phone-number">
 								<input id="enquire-form-phone-field" class="block js_phone_number" type="text">
-								<img class="icon" src="/media/icons/phone.svg">
+								<img class="icon" src="/media/icons/phone.svg<?php echo $ver ?>">
 							</div>
 						</div>
 						<div class="form-row">
@@ -360,7 +360,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<span class="invisible">Submit</span><br>
 								<button type="submit" class="button block fill-dark-0" style="position: relative;">
 									<span>Send</span>
-									<img class="icon" src="/media/icons/send.svg">
+									<img class="icon" src="/media/icons/send.svg<?php echo $ver ?>">
 								</button>
 							</label>
 						</div>
@@ -377,7 +377,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<span class="invisible">Verify with OTP</span><br>
 								<button type="submit" class="button block fill-dark-0" style="position: relative;">
 									<span>Verify with OTP</span>
-									<img class="icon" src="/media/icons/send.svg">
+									<img class="icon" src="/media/icons/send.svg<?php echo $ver ?>">
 								</button>
 							</label>
 						</div>
@@ -390,7 +390,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
-				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_4.png');">
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_4.png<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
@@ -408,7 +408,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
-				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/logo_grid_1.png');">
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/logo_grid_1.png<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
@@ -430,11 +430,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row layer-1">
 			<div class="columns small-12 large-6">
 				<div class="row">
-					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_085_retouched.jpg');"></div>
-					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_015_retouched.jpg');"></div>
+					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_085_retouched.jpg<?php echo $ver ?>');"></div>
+					<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_015_retouched.jpg<?php echo $ver ?>');"></div>
 				</div>
 			</div>
-			<div class="photo half columns small-12 large-6" style="background-image: url('/media/landmark-photos/Klassik-Site_01A.jpg');"></div>
+			<div class="photo half columns small-12 large-6" style="background-image: url('/media/landmark-photos/Klassik-Site_01A.jpg<?php echo $ver ?>');"></div>
 		</div>
 		<div class="row layer-2">
 			<div class="container">
@@ -463,7 +463,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 		</div>
 		<div class="row layer-2">
-			<div class="photo columns small-12 large-6 large-offset-6 section-height" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_0110_retouched.jpg');">
+			<div class="photo columns small-12 large-6 large-offset-6 section-height" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_0110_retouched.jpg<?php echo $ver ?>');">
 			</div>
 		</div>
 	</section>
@@ -492,7 +492,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section class="diagram-section section-height fill-light-2">
 		<div class="row">
 			<div class="container fill-light-1 flex-rtl">
-				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_5.png');">
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_5.png<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
@@ -510,7 +510,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
 			<div class="container fill-light-0">
-				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_6.png');">
+				<div class="diagram columns small-12 large-6" style="background-image: url('/media/diagrams/diagram_6.png<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
@@ -528,7 +528,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- Building Section: Air Quality -->
 	<section class="building-section-air-quality photo-bleed-section fill-neutral-1">
 		<div class="row layer-2">
-			<div class="photo columns small-12 large-6 section-height" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_0114_retouched.jpg');">
+			<div class="photo columns small-12 large-6 section-height" style="background-image: url('/media/landmark-graded-photos/Klassik_Landmark_0114_retouched.jpg<?php echo $ver ?>');">
 			</div>
 		</div>
 		<div class="row layer-3">
@@ -557,7 +557,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<div class="title p text-red-1">Pollution Board Air Quality Certificate:</div>
 								<a href="download/klassik_airquality_web.pdf" target="_blank" class="button block fill-dark-2 js_user_required js_get_air_certificate">
 									Download
-									<img class="icon" src="/media/icons/certificate.svg">
+									<img class="icon" src="/media/icons/certificate.svg<?php echo $ver ?>">
 								</a>
 								<!-- Phone Trap -->
 								<!-- Phone form -->
@@ -576,7 +576,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										</div>
 										<div class="phone-number">
 											<input id="enquire-form-phone-field" class="block js_phone_number" type="text">
-											<img class="icon" src="/media/icons/phone.svg">
+											<img class="icon" src="/media/icons/phone.svg<?php echo $ver ?>">
 										</div>
 									</div>
 									<div class="form-row">
@@ -584,7 +584,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<span class="invisible">Submit</span><br>
 											<button type="submit" class="button block fill-dark-0" style="position: relative;">
 												<span>Send</span>
-												<img class="icon" src="/media/icons/send.svg">
+												<img class="icon" src="/media/icons/send.svg<?php echo $ver ?>">
 											</button>
 										</label>
 									</div>
@@ -601,7 +601,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<span class="invisible">Verify with OTP</span><br>
 											<button type="submit" class="button block fill-dark-0" style="position: relative;">
 												<span>Verify with OTP</span>
-												<img class="icon" src="/media/icons/send.svg">
+												<img class="icon" src="/media/icons/send.svg<?php echo $ver ?>">
 											</button>
 										</label>
 									</div>
@@ -636,7 +636,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 		<div class="row layer-1">
 			<div class="container">
-				<div class="location-map columns small-12 large-9 section-height" style="background-image: url('/media/diagrams/Location-Map.png');">
+				<div class="location-map columns small-12 large-9 section-height" style="background-image: url('/media/diagrams/Location-Map.png<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-3">
 					<div class="points row block-space-top-bottom">
@@ -660,11 +660,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="container">
 				<div class="columns small-12 large-3">
 					<div class="row">
-						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/location-photos/Wipro_Sarjapur.jpg');"></div>
-						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/location-photos/Ecospace.png');"></div>
+						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/location-photos/Wipro_Sarjapur.jpg<?php echo $ver ?>');"></div>
+						<div class="photo quarter columns small-6 large-12" style="background-image: url('/media/location-photos/Ecospace.png<?php echo $ver ?>');"></div>
 					</div>
 				</div>
-				<div class="photo half columns small-12 large-9" style="background-image: url('/media/location-photos/Infosys_Electronic.jpg');"></div>
+				<div class="photo half columns small-12 large-9" style="background-image: url('/media/location-photos/Infosys_Electronic.jpg<?php echo $ver ?>');"></div>
 			</div>
 		</div>
 		<div class="row layer-2">
@@ -733,7 +733,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row">
 			<div class="container">
 				<div class="columns small-12">
-					<a class="seyonii-badge" href="https://seyonii.com/" target="_blank"><img src="/media/seyonii-badge.svg"></a>
+					<a class="seyonii-badge" href="https://seyonii.com/" target="_blank"><img src="/media/seyonii-badge.svg<?php echo $ver ?>"></a>
 				</div>
 			</div>
 		</div>
