@@ -17,7 +17,7 @@ RewriteRule ((^/?)|/)blank/(.*)$ pages/virtually-empty.php [QSA,L]
 
 # A page for Tracking and Analytics
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
-RewriteRule ((^/?)|/)trac/(.*)$ pages/virtually-empty.php [QSA,L]
+RewriteRule ((^/?)|/)track/(.*)$ pages/virtually-empty.php [QSA,L]
 
 # The Pricing page
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
