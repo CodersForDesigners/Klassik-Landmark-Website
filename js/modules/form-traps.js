@@ -100,6 +100,14 @@ Loginner.registerLoginPrompt( "Enquiry", {
 
 		__OMEGA.utils.trackPageVisit( url );
 
+		// Restore the URLs from the anchor elements
+		var $trapSite = $( this ).closest( "[ data-loginner ]" );
+		$trapSite.find( "a" ).each( function ( _i, domAnchor ) {
+			var $anchor = $( domAnchor );
+			var url = $anchor.data( "href" );
+			$anchor.attr( "href", url );
+		} );
+
 		// Show and Submit the underlying Enquiry form
 		$( this ).addClass( "hidden" );
 		$( ".js_enquiry_form" )
