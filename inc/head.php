@@ -45,8 +45,6 @@
 	<base href="/"><!-- ( example : http://example.com/page.html ) -->
 	<!-- Links to top level resource in an hierarchical structure -->
 	<link rel="index" href="http://example.com/article/">
-	<!-- Helps prevent duplicate content issues -->
-	<link rel="canonical" href="https://example.com/">
 	<!-- Control the behavior of search engine crawling and indexing -->
 	<meta name="robots" content="index,follow"><!-- All Search Engines -->
 	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
@@ -103,8 +101,6 @@
 	<!-- (sample : https://developers.facebook.com/docs/instant-articles/reference) -->
 	<!-- (source : https://developers.facebook.com/docs/instant-articles/guides/articlecreate) -->
 	<meta property="op:markup_version" content="v1.0">
-	<!-- The URL of the web version of your article -->
-	<link rel="canonical" href="http://example.com/article.html">
 	<!-- The style to be used for this article -->
 	<meta property="fb:article_style" content="myarticlestyle">
 

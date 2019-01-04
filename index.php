@@ -35,6 +35,8 @@
 
 	<?php echo gethead(); ?>
 
+	<link rel="canonical" href="https://klassikbuild.com/landmark/">
+
 </head>
 
 <body id="body" class="body">
