@@ -175,7 +175,7 @@ utils.trackPageVisit = function trackPageVisit ( name ) {
 	 */
 	// Build the URL
 	var projectBaseURL = __OMEGA.settings.projectBaseURL;
-	var baseURL = location.origin.replace( /\/$/, "" ) + "/" + projectBaseURL + "/track";
+	var baseURL = location.origin.replace( /\/$/, "" ) + "/" + projectBaseURL;
 	name = name.replace( /^[/]*/, "" );
 	var url = baseURL + "/" + name;
 

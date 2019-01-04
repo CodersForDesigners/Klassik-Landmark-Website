@@ -89,7 +89,7 @@ Loginner.registerLoginPrompt( "Enquiry", {
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
 	onOTPVerified: function ( context, phoneNumber ) {
-		var url = "enquire-now";
+		var url = "track/enquire-now";
 		__OMEGA.utils.trackPageVisit( url );
 	},
 	onLogin: function ( user, context ) {
@@ -98,7 +98,7 @@ Loginner.registerLoginPrompt( "Enquiry", {
 			.find( "input, select, button" )
 			.prop( "disabled", true )
 
-		__OMEGA.utils.trackPageVisit( url );
+		// __OMEGA.utils.trackPageVisit( url );
 
 		// Restore the URLs from the anchor elements
 		var $trapSite = $( this ).closest( "[ data-loginner ]" );
@@ -164,7 +164,7 @@ Loginner.registerLoginPrompt( "Brochure", {
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
 	onOTPVerified: function ( context, phoneNumber ) {
-		var url = "brochure";
+		var url = "track/brochure";
 		__OMEGA.utils.trackPageVisit( url );
 	},
 	onLogin: function ( user, context ) {
@@ -237,7 +237,7 @@ Loginner.registerLoginPrompt( "Air Certificate", {
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
 	onOTPVerified: function ( context, phoneNumber ) {
-		var url = "aq-certificate";
+		var url = "track/aq-certificate";
 		__OMEGA.utils.trackPageVisit( url );
 	},
 	onLogin: function ( user, context ) {
