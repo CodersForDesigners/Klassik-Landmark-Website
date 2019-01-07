@@ -62,19 +62,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<!-- <div class="description small text-light-0"></div> -->
 						<div class="icon" style="background-image: url('/media/icons/download.svg<?php echo $ver ?>');"></div>
 					</a>
-					<a href="" class="no-pointer link variant columns small-3 active">
+					<a href="landmark/pricing" target="_blank" class="link variant columns small-3 active">
 						<div class="title label text-light-0">Island 3BHK</div>
 						<div class="sub-title small text-neutral-0">2035sft to 2170sft</div>
 						<hr class="dash">
 						<div class="description small text-light-0">READY TO MOVE IN</div>
 					</a>
-					<a href="" class="no-pointer link variant columns small-3">
+					<a href="landmark/pricing" target="_blank" class="link variant columns small-3">
 						<div class="title label text-light-0">Plush 3BHK</div>
 						<div class="sub-title small text-neutral-0">1600sft to 2000sft</div>
 						<hr class="dash">
 						<div class="description small text-light-0">READY TO MOVE IN</div>
 					</a>
-					<a href="" class="no-pointer link variant columns small-3">
+					<a href="landmark/pricing" target="_blank" class="link variant columns small-3">
 						<div class="title label text-light-0">Elevate 3BHK</div>
 						<div class="sub-title small text-neutral-0">1400sft to 1600sft</div>
 						<hr class="dash">
