@@ -415,7 +415,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
-							<div class="h4 text-dark-1">Takeover a Fresh Apartment Engineering Upgrade</div>
+							<div class="h4 text-dark-1">Takeover a Fresh Apartment</div>
 							<hr class="underline">
 							<div class="p">We changed one engineering process to make your new apartment feel new.  The Doors, Sanitary Fixtures and Kitchen Counter are installed just before you move in. They are not soiled by construction workers. The apartment truly feels brand new.</div>
 							<div class="p">Top of the line building materials from Schindler, Grohe, Legrand, Grundfos, Pyramid, Saint Gobain & Nippon paint.</div>
@@ -499,7 +499,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="columns small-12 large-6">
 					<div class="content row flex-center block-space-top-bottom">
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
-							<div class="h4 text-dark-1"><span class="text-red-1">Aircraft Wing Section</span> tower design Engineering Upgrade</div>
+							<div class="h4 text-dark-1"><span class="text-red-1">Aircraft Wing Section</span> tower design</div>
 							<hr class="underline">
 							<div class="p">We changed one engineering process to make your new apartment feel new.  The Doors, Sanitary Fixtures and Kitchen Counter are installed just before you move in. They are not soiled by construction workers. The apartment truly feels brand new.</div>
 						</div>
