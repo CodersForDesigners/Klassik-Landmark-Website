@@ -48,7 +48,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!--  ★  MARKUP GOES HERE  ★  -->
 
-<div id="page-wrapper" data-page="<?php echo $viewName ?>"><!-- Page Wrapper -->
+<div id="page-wrapper"><!-- Page Wrapper -->
 
 	<!-- Navigation Section -->
 	<section class="navigation-section js_navigation_section"><!-- Add Show Class Here -->
