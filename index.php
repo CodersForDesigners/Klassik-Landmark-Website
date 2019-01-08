@@ -630,7 +630,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<section class="location-section section-height fill-dark-1">
 		<div class="row layer-2">
 			<div class="container">
-				<div class="card columns small-9 small-offset-3 large-6 large-offset-6 fill-dark-2">
+				<div class="card columns small-9 small-offset-3 large-6 large-offset-6 fill-dark-2-75">
 					<div class="h2 strong text-light-0">The only <span class="text-red-1">all 3BHK</span> apartment development</div>
 					<div class="h3 text-red-1">in the Sarjapur Road vicinity</div>
 				</div>
@@ -638,7 +638,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 		<div class="row layer-1">
 			<div class="container">
-				<div class="location-map columns small-12 large-9 section-height" style="background-image: url('https://res.cloudinary.com/klassik/image/upload/Website/diagrams/Location-Map.png<?php echo $ver ?>');">
+				<div class="location-map columns small-12 large-9 section-height" style="background-image: url('/media/diagrams/Location-Map.svg<?php echo $ver ?>');">
 				</div>
 				<div class="columns small-12 large-3">
 					<div class="points row block-space-top-bottom">
