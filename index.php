@@ -530,7 +530,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- Building Section: Air Quality -->
 	<section class="building-section-air-quality photo-bleed-section fill-neutral-1">
 		<div class="row layer-2">
-			<div class="photo columns small-12 large-6 section-height" style="background-image: url('https://res.cloudinary.com/klassik/image/upload/Website/landmark-graded-photos/Klassik_Landmark_0114_retouched.jpg<?php echo $ver ?>');">
+			<div class="photo columns small-12 large-6 section-height" style="background-image: url('/media/landmark-graded-photos/Klassik_03-01-20195K8A0532_retouched_sky-replacement.jpg<?php echo $ver ?>');">
 			</div>
 		</div>
 		<div class="row layer-3">
