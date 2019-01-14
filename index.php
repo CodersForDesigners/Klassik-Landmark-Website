@@ -174,7 +174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-light-0">No common walls, <br>only 3 flats per floor</div>
 							<hr class="underline">
-							<div class="p block-space-bottom text-neutral-0">The 2000sft ‘Island 3BHK’ does not share any common walls with any other apartment. It is the only apartment in the vicinity that opens to the East and the West. Every lift lobby only serves 3 apartments per floor. Each lift lobby has 2 lifts, one 13 person lift and one 6 person lift.</div>
+							<div class="p block-space-bottom text-neutral-0">The 2035sft to 2140sft ‘Island 3BHK’ does not share any common walls with any other apartment. It is the only apartment in the vicinity that opens to the East and the West. Every lift lobby only serves 3 apartments per floor. Each lift lobby has 2 lifts, one 13 person lift and one 6 person lift.</div>
 
 							<div class="p text-light-1 fill-dark-0" style="padding: 15px;">
 								ISLAND /ˈ ʌɪlənd/
