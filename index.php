@@ -70,13 +70,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</a>
 					<a href="landmark/pricing" target="_blank" class="link variant columns small-3">
 						<div class="title label text-light-0">Plush 3BHK</div>
-						<div class="sub-title small text-neutral-0">1600sft to 2000sft</div>
+						<div class="sub-title small text-neutral-0">1691sft to 1920sft</div>
 						<hr class="dash">
 						<div class="description small text-light-0">READY TO MOVE IN</div>
 					</a>
 					<a href="landmark/pricing" target="_blank" class="link variant columns small-3">
 						<div class="title label text-light-0">Elevate 3BHK</div>
-						<div class="sub-title small text-neutral-0">1400sft to 1600sft</div>
+						<div class="sub-title small text-neutral-0">1445sft to 1505sft</div>
 						<hr class="dash">
 						<div class="description small text-light-0">READY IN DEC 2019</div>
 					</a>
@@ -174,7 +174,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-8 large-offset-2">
 							<div class="h4 text-light-0">No common walls, <br>only 3 flats per floor</div>
 							<hr class="underline">
-							<div class="p block-space-bottom text-neutral-0">The 2035sft to 2140sft ‘Island 3BHK’ does not share any common walls with any other apartment. It is the only apartment in the vicinity that opens to the East and the West. Every lift lobby only serves 3 apartments per floor. Each lift lobby has 2 lifts, one 13 person lift and one 6 person lift.</div>
+							<div class="p block-space-bottom text-neutral-0">The 2035sft to 2170sft ‘Island 3BHK’ does not share any common walls with any other apartment. It is the only apartment in the vicinity that opens to the East and the West. Every lift lobby only serves 3 apartments per floor. Each lift lobby has 2 lifts, one 13 person lift and one 6 person lift.</div>
 
 							<div class="p text-light-1 fill-dark-0" style="padding: 15px;">
 								ISLAND /ˈ ʌɪlənd/
