@@ -665,6 +665,11 @@ function loginUser ( user ) {
 		project: user.project,
 	}
 	__OMEGA.utils.setCookie( cookieName, cookie, 90 * 24 * 60 * 60 );
+
+	// Create another one for Tag Manager
+	var cookieName = "omega-user-id";
+	var cookie = user.uid;
+	__OMEGA.utils.setCookie( cookieName, cookie, 90 * 24 * 60 * 60 );
 }
 
 /*
