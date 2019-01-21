@@ -122,7 +122,7 @@ utils.openPageInIframe = function openPageInIframe ( url, name, options ) {
  *
  * @params
  * 	name -> the name of the cookie
- * 	data -> an object with data that is to be encoded into the cookie
+ * 	data -> it's either an object with data that is to be encoded into the cookie, or a string that is simply to be the cookie's value with no processing whatsoever
  * 	duration -> how long before the cookie expires ( in seconds )
  *
  */
@@ -135,7 +135,10 @@ utils.setCookie = function setCookie ( name, data, duration ) {
 	url += "/inc/set-cookie-async.php";
 	var queryString = "?" + "_cookie=" + encodeURIComponent( name );
 	queryString += "&_duration=" + encodeURIComponent( duration );
-	queryString += "&data=" + encodeURIComponent( JSON.stringify( data ) );
+	if ( typeof data == "string" )
+		queryString += "&value=" + encodeURIComponent( data );
+	else
+		queryString += "&data=" + encodeURIComponent( JSON.stringify( data ) );
 
 	var $iframe = $( "<iframe>" );
 	$iframe.attr( {
