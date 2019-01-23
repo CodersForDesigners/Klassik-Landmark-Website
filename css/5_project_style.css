@@ -659,3 +659,32 @@ button .icon,
 		right: 20px;
 	}
 }
+
+/*
+ *
+ *	LivProp Chat Widget
+ *
+ */
+/* For the default skin */
+#ls_theLayer {
+	/*bottom: 10rem !important;*/
+	transform: translateY( -5.5rem );
+}
+/* For the custom skin */
+.live-button,
+.livprop_overlay {
+	bottom: 5.5rem !important;
+}
+@media ( min-width: 1040px ) {
+	/* For the default skin */
+	#ls_theLayer {
+		/*bottom: 7rem !important;*/
+		transform: translateY( -7rem );
+	}
+	/* For the custom skin */
+	.live-button,
+	.livprop_overlay {
+		bottom: 7rem !important;
+	}
+}
+
