@@ -724,8 +724,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="h4 text-dark-1">Project Office</div>
 					<hr class="underline">
 					<div class="p address">
-						Sy No.34/9 - 34/13, Junnasandra, Varthur,
-						Near Amritha College Of Engineering,
+						Sy No.34/9 - 34/13, Junnasandra,
+						Near Amritha College Of Engineering, Off Sarjapur Road,
 						Bangalore - 560 035.
 					</div>
 					<div><a class="link h4 text-red-1" href="tel:+919663396887">+91–96633–96887</a></div>
