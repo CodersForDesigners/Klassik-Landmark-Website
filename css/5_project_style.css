@@ -5,7 +5,7 @@
 
 /* ## Basic Breakpoints
  * ====================
- 
+
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {}
 @media( min-width: 1380px ) {}
@@ -131,7 +131,7 @@ body, .body {
 	background-color: var(--light-1);
 }
 
-h1, h2, h3, h4, h5, h6, 
+h1, h2, h3, h4, h5, h6,
 p, small, label {
 	margin: 0;
 	display: inline;
@@ -665,6 +665,12 @@ button .icon,
  *	LivProp Chat Widget
  *
  */
+/* Hide the widget on small screens */
+@media ( max-width: 640px ) {
+	#ls_theLayer { display: none !important; }
+	.livprop_overlay { display: none !important; }
+}
+
 /* For the default skin */
 #ls_theLayer {
 	/*bottom: 10rem !important;*/
