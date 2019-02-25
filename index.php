@@ -31,7 +31,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Page Title | Page Name -->
-	<title>Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road</title>
+	<title>OFFICIAL Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road</title>
 
 	<?php echo gethead(); ?>
 
