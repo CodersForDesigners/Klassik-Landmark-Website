@@ -851,9 +851,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script type="text/javascript">
 
-// JAVASCRIPT GOES HERE
-$(document).ready(function(){
-});
+	$( function () {
+		__OMEGA.utils.getUser( { meta: true } ).then( function ( user ) {
+			// Log the user in
+			__OMEGA.utils.loginUser( user );
+			// Log the visit
+			__OMEGA.utils.addNoteToUser( "Omega Event Log",
+				"Customer VIEWED the \"Landmark\" project webpage."
+			).catch( function ( e ) {
+				console.log( e.message )
+			} );
+		} );
+	} );
 
 </script>
 
