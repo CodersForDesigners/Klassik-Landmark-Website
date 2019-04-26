@@ -672,9 +672,9 @@ function createUser ( phoneNumber, project, specificContext, context ) {
 	};
 
 	// Fetch the lead based on the phone number
-	var apiEndpoint = __OMEGA.settings.apiEndpoint;
+	var apiEndpoint = __OMEGA.settings.centralApiEndpoint;
 	var createUser__AjaxRequest = $.ajax( {
-		url: apiEndpoint + "/users",
+		url: apiEndpoint + "/customers",
 		method: "POST",
 		data: requestPayload
 	} );

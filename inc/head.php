@@ -215,6 +215,7 @@
 				settings.apiEndpoint = "http://omega.api.192.168.0.207.xip.io";
 			}
 			settings.apiEndpoint = "https://klassikbuild.com/omega";
+			settings.centralApiEndpoint = "https://api.omega.seyonii.com";
 				// Base URL
 			settings.baseURL = "";
 			if ( __envProduction ) {
