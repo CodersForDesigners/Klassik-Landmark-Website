@@ -11,12 +11,10 @@
 	*
 	- -->
 	<!-- Short description of your document's subject -->
-	<meta name="subject" content="your document's subject">
+	<!-- <meta name="subject" content=""> -->
 	<!-- Short description of the document (limit to 150 characters) -->
 	<!-- This content *may* be used as a part of search engine results. -->
 	<meta content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive." name="description">
-	<!-- Key Words -->
-	<meta name="keywords" content="Keyword_A, Keyword_B, Keyword_C, Keyword_D, Keyword_E">
 
 
 
@@ -42,17 +40,14 @@
 	*
 	- -->
 	<!-- Set the base URL for all relative URLs within the document -->
-	<base href="/"><!-- ( example : http://example.com/page.html ) -->
+	<base href="/">
 	<!-- Links to top level resource in an hierarchical structure -->
-	<link rel="index" href="http://example.com/article/">
+	<link rel="index" href="https://klassikbuild.com/landmark">
 	<!-- Control the behavior of search engine crawling and indexing -->
 	<meta name="robots" content="index,follow"><!-- All Search Engines -->
 	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
 	<!-- Verify website ownership -->
 	<meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
-	<meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
-	<!-- Links to an AMP HTML version of the current document -->
-	<!-- <link rel="amphtml" href="http://example.com/path/to/amp-version.html"> -->
 
 
 
@@ -61,19 +56,9 @@
 	*	Web Application
 	*
 	- -->
-	<!-- Name of web application (only should be used if the website is used as an app) -->
-	<meta name="application-name" content="Application Name">
-
-	<!-- Links to a JSON file that specifies "installation" credentials for the web applications -->
-	<link rel="manifest" href="manifest.json">
-
 	<!-- ~ iOS ~ -->
 	<!-- Disable automatic detection and formatting of possible phone numbers -->
 	<meta name="format-detection" content="telephone=no">
-	<!-- Launch Screen Image -->
-	<link rel="apple-touch-startup-image" href="/path/to/launch.png">
-	<!-- Launch Icon Title -->
-	<meta name="apple-mobile-web-app-title" content="App Title">
 	<!-- Enable standalone (full-screen) mode -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
@@ -108,16 +93,16 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@site_handle">
 	<meta name="twitter:creator" content="@publisher_handle">
-	<meta name="twitter:url" content="http://example.com/page.html">
+	<meta name="twitter:url" content="https://klassikbuild.com/landmark">
 	<meta name="twitter:title" content="Post Title">
-	<meta name="twitter:description" content="Content description less than 200 characters">
-	<meta name="twitter:image" content="http://example.com/image.jpg">
+	<meta name="twitter:description" content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive.">
+	<meta name="twitter:image" content="https://klassikbuild.com/landmark/media/favicon/apple-icon.png">
 
 	<!-- Google+ / Schema.org -->
 	<link href="https://plus.google.com/+YourPage" rel="publisher">
-	<meta itemprop="name" content="Content Title">
-	<meta itemprop="description" content="Content description less than 200 characters">
-	<meta itemprop="image" content="http://example.com/image.jpg">
+	<meta itemprop="name" content="Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road">
+	<meta itemprop="description" content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City.">
+	<meta itemprop="image" content="https://klassikbuild.com/landmark/media/favicon/apple-icon.png">
 
 
 
