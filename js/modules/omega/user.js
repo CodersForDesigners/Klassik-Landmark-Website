@@ -516,7 +516,7 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
 	 * Pull the data from the form
 	 ----- */
 	// OTP
-	$otp = $form.find( ".js_otp input" );
+	$otp = $form.find( "[ name = 'otp' ]" );
 
 	/* -----
 	 * Validate the data

@@ -246,7 +246,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<div class="form-row">
 									<label>
 										<span class="">We've sent you an OTP</span><br>
-										<input class="block" type="text">
+										<input class="block" type="text" name="otp">
 									</label>
 								</div>
 								<div class="form-row">
@@ -371,7 +371,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="form-row">
 							<label>
 								<span class="text-light-0">We've sent you an OTP</span><br>
-								<input class="block" type="text">
+								<input class="block" type="text" name="otp">
 							</label>
 						</div>
 						<div class="form-row">
@@ -595,7 +595,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<div class="form-row">
 										<label>
 											<span class="text-dark-0">We've sent you an OTP</span><br>
-											<input class="block" type="text">
+											<input class="block" type="text" name="otp">
 										</label>
 									</div>
 									<div class="form-row">
