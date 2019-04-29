@@ -111,7 +111,7 @@ Loginner.registerLoginPrompt( "Enquiry", {
 		// Show and Submit the underlying Enquiry form
 		$( this ).addClass( "hidden" );
 		$( ".js_enquiry_form" )
-			.removeClass( "hidden" )
+			.removeClass( "hidden js_user_required" )
 			.trigger( "submit" );
 
 	}
