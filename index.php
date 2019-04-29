@@ -838,16 +838,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- JS Modules -->
 <!-- <script type="text/javascript" src="/js/modules/device-charge.js"></script> -->
 <!-- <script type="text/javascript" src="/js/tracking.js" defer></script> -->
-<script type="text/javascript" src="/js/modules/navigation.js"></script>
-<script type="text/javascript" src="/js/modules/video_embed.js"></script>
-<script type="text/javascript" src="/js/modules/modal_box.js"></script>
-<script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
-<script type="text/javascript" src="/js/modules/forms.js"></script>
-<script type="text/javascript" src="/js/modules/disclaimer.js"></script>
+<script type="text/javascript" src="/js/modules/navigation.js<?= $ver ?>"></script>
+<script type="text/javascript" src="/js/modules/video_embed.js<?= $ver ?>"></script>
+<script type="text/javascript" src="/js/modules/modal_box.js<?= $ver ?>"></script>
+<script type="text/javascript" src="/js/modules/smoothscroll.js<?= $ver ?>"></script>
+<script type="text/javascript" src="/js/modules/forms.js<?= $ver ?>"></script>
+<script type="text/javascript" src="/js/modules/disclaimer.js<?= $ver ?>"></script>
 <!-- Omega -->
-<script type="text/javascript" src="/js/modules/omega/utils.js"></script>
-<script type="text/javascript" src="/js/modules/omega/user.js"></script>
-<script type="text/javascript" src="/js/modules/form-traps.js"></script>
+<script type="text/javascript" src="/js/modules/omega/utils.js<?= $ver ?>"></script>
+<script type="text/javascript" src="/js/modules/omega/user.js<?= $ver ?>"></script>
+<script type="text/javascript" src="/js/modules/form-traps.js<?= $ver ?>"></script>
 
 <script type="text/javascript">
 
