@@ -15,6 +15,10 @@ RewriteRule ^/?$ index.php [QSA,L]
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
 RewriteRule ^/?brochure/?$ pages/brochure.php [QSA,L]
 
+# The Experience Review page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ^/?review/?$ pages/review.php [QSA,L]
+
 # An empty page
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
 RewriteRule ((^/?)|/)blank/(.*)$ pages/virtually-empty.php [QSA,L]
