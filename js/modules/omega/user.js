@@ -27,6 +27,7 @@ var docCookies={getItem:function(e){return e?decodeURIComponent(document.cookie.
  * Public API
  *
  */
+__OMEGA.query = { user: { attempts: 0 } };
 var Loginner = window.Loginner = { };
 Loginner.prompts = { };
 Loginner.registerLoginPrompt = function registerLoginPrompt ( name, handlers ) {
