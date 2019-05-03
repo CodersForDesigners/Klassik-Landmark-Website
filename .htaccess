@@ -30,7 +30,7 @@ RewriteRule ^/?quote$ https://%{HTTP_HOST}/landmark-pricing/quote [P]
 # RewriteRule ^/?login$ http://%{HTTP_HOST}/omega/login [R=301,QSA,L,NC]
 
 # the catch-all "else" block
-RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
-RewriteRule .? /landmark [R=302,QSA,L]
+# RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+# RewriteRule .? /landmark [R=302,QSA,L]
 
 </IfModule>
