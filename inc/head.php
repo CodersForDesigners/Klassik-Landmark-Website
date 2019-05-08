@@ -77,8 +77,12 @@
 	*
 	- -->
 	<!-- Facebook Open Graph -->
-	<meta content="Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road" property="og:title">
-	<meta content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive." property="og:description">
+	<meta property="og:title" content="Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://klassikbuild.com/landmark">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive.">
+	<meta name="og:image" content="https://klassikbuild.com/landmark/media/favicon/apple-icon.png">
 
 
 
@@ -91,10 +95,10 @@
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@site_handle">
-	<meta name="twitter:creator" content="@publisher_handle">
+	<!-- <meta name="twitter:site" content="@site_handle"> -->
+	<!-- <meta name="twitter:creator" content="@publisher_handle"> -->
 	<meta name="twitter:url" content="https://klassikbuild.com/landmark">
-	<meta name="twitter:title" content="Post Title">
+	<meta name="twitter:title" content="Klassik | Landmark | 3BHK Flats & Apartments for Sale | Sarjapur Road">
 	<meta name="twitter:description" content="3BHKs Near Wipro. Starting At 110 Lakhs. Klassik Landmark is a 10 minute drive from the Wipro Head Office on Sarjapur Road, just 6 kms away from Ecospace on the ORR and 9 kms away from Electronic City. The proposed Hosa Road Metro Station is just a 10 minute drive.">
 	<meta name="twitter:image" content="https://klassikbuild.com/landmark/media/favicon/apple-icon.png">
 
