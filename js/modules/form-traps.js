@@ -61,12 +61,13 @@ Loginner.registerLoginPrompt( "Enquiry", {
 		} );
 		console.log( message )
 	},
-	onPhoneSend: function () {
+	onPhoneSend: function ( phoneNumber, project ) {
 		$( this ).find( "[ type = submit ] span" ).text( "Sending" );
 	},
-	onShowOTP: function ( domPhoneForm, domOTPForm ) {
+	onShowOTP: function ( domPhoneForm, domOTPForm, phoneNumber, project ) {
 		$( domPhoneForm ).addClass( "hidden" );
 		$( domOTPForm ).removeClass( "hidden" );
+		__OMEGA.utils.addPotentialCustomer( phoneNumber, project );
 	},
 	onOTPSend: function () {
 		$( this ).find( "[ type = submit ] span" ).text( "Sending" );
@@ -88,9 +89,10 @@ Loginner.registerLoginPrompt( "Enquiry", {
 		$( this ).find( "[ type = submit ] span" ).text( "Send" );
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
-	onOTPVerified: function ( context, phoneNumber ) {
+	onOTPVerified: function ( context, phoneNumber, project ) {
 		var url = "track/enquire-now";
 		__OMEGA.utils.trackPageVisit( url );
+		__OMEGA.utils.verifyPotentialCustomer( phoneNumber, project );
 	},
 	onLogin: function ( user, context ) {
 
@@ -99,6 +101,14 @@ Loginner.registerLoginPrompt( "Enquiry", {
 			.prop( "disabled", true )
 
 		// __OMEGA.utils.trackPageVisit( url );
+
+		// Restore the URLs from the anchor elements
+		var $trapSite = $( this ).closest( "[ data-loginner ]" );
+		$trapSite.find( "a" ).each( function ( _i, domAnchor ) {
+			var $anchor = $( domAnchor );
+			var url = $anchor.data( "href" );
+			$anchor.attr( "href", url );
+		} );
 
 		// Restore the URLs from the anchor elements
 		var $trapSite = $( this ).closest( "[ data-loginner ]" );
@@ -136,12 +146,13 @@ Loginner.registerLoginPrompt( "Brochure", {
 		} );
 		console.log( message )
 	},
-	onPhoneSend: function () {
+	onPhoneSend: function ( phoneNumber, project ) {
 		$( this ).find( "[ type = submit ] span" ).text( "Sending" );
 	},
-	onShowOTP: function ( domPhoneForm, domOTPForm ) {
+	onShowOTP: function ( domPhoneForm, domOTPForm, phoneNumber, project ) {
 		$( domPhoneForm ).addClass( "hidden" );
 		$( domOTPForm ).removeClass( "hidden" );
+		__OMEGA.utils.addPotentialCustomer( phoneNumber, project );
 	},
 	onOTPSend: function () {
 		$( this ).find( "[ type = submit ] span" ).text( "Sending" );
@@ -163,9 +174,10 @@ Loginner.registerLoginPrompt( "Brochure", {
 		$( this ).find( "[ type = submit ] span" ).text( "Send" );
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
-	onOTPVerified: function ( context, phoneNumber ) {
+	onOTPVerified: function ( context, phoneNumber, project ) {
 		var url = "track/brochure";
 		__OMEGA.utils.trackPageVisit( url );
+		__OMEGA.utils.verifyPotentialCustomer( phoneNumber, project );
 	},
 	onLogin: function ( user, context ) {
 
@@ -209,12 +221,13 @@ Loginner.registerLoginPrompt( "Air Certificate", {
 		} );
 		console.log( message )
 	},
-	onPhoneSend: function () {
+	onPhoneSend: function ( phoneNumber, project ) {
 		$( this ).find( "[ type = submit ] span" ).text( "Sending" );
 	},
-	onShowOTP: function ( domPhoneForm, domOTPForm ) {
+	onShowOTP: function ( domPhoneForm, domOTPForm, phoneNumber, project ) {
 		$( domPhoneForm ).addClass( "hidden" );
 		$( domOTPForm ).removeClass( "hidden" );
+		__OMEGA.utils.addPotentialCustomer( phoneNumber, project );
 	},
 	onOTPSend: function () {
 		$( this ).find( "[ type = submit ] span" ).text( "Sending" );
@@ -236,9 +249,10 @@ Loginner.registerLoginPrompt( "Air Certificate", {
 		$( this ).find( "[ type = submit ] span" ).text( "Send" );
 		$( this ).find( "input, select, button" ).prop( "disabled", false );
 	},
-	onOTPVerified: function ( context, phoneNumber ) {
+	onOTPVerified: function ( context, phoneNumber, project ) {
 		var url = "track/aq-certificate";
 		__OMEGA.utils.trackPageVisit( url );
+		__OMEGA.utils.verifyPotentialCustomer( phoneNumber, project );
 	},
 	onLogin: function ( user, context ) {
 
