@@ -20,6 +20,7 @@
 <link rel="stylesheet" type="text/css" href="css/pages/section/landing-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/navigation-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/apartment-section-floorplan.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/ad-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/diagram-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/action-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/collage-section.css<?php echo $ver ?>">

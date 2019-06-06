@@ -1,0 +1,208 @@
+/*
+ * Ad Section
+ */
+
+.ad-section {
+	position: relative;
+}
+
+.ad-section .title {
+	margin-bottom: 160px;
+}
+
+@media( min-width: 640px )  {
+	.ad-section .title {
+		margin-bottom: 0;
+	}
+}
+@media( min-width: 1040px ) {}
+@media( min-width: 1380px ) {}
+
+/* -- Video System -- */
+.ad-section .video-system {
+	position: relative;
+	z-index: 2;
+}
+
+.ad-section .video-system:before,
+.ad-section .video-system:after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	bottom: 0px;
+	width: 600px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.ad-section .video-system:before {
+	left: 0;
+	transform: translateX(-590px);
+	background-image: url('../../../media/ad-section/character-1.png');
+	background-position: right bottom;
+}
+.ad-section .video-system:after {
+	right: 0;
+	transform: translateX(520px);
+	background-image: url('../../../media/ad-section/character-2.png');
+	background-position: left bottom;
+}
+
+.ad-section .video-system .player {
+	position: relative;
+	z-index: 2;
+	padding: 0 10px;
+}
+
+.ad-section .video-system .player .screen {
+	position: relative;
+	z-index: 2;
+	border: solid 2px var(--dark-0);
+}
+
+.ad-section .video-system .player .controls {
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+}
+
+.ad-section .video-system .player .controls button {
+	text-indent: -100000px;
+	pointer-events: all;
+	width: 50px;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	transform: translateY(-50%);
+	background-size: 32px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.ad-section .video-system .player .controls button.prev {
+	left: -20px;
+	background-image: url('../../../media/icons/icon-left.svg');
+}
+.ad-section .video-system .player .controls button.next {
+	right: -20px;
+	background-image: url('../../../media/icons/icon-right.svg');
+}
+
+.ad-section .video-system .thumbnails {
+	position: relative;
+	z-index: 3;
+	padding: 5px;
+}
+
+.ad-section .video-system .thumbnails .thumb {
+	padding: 5px;
+	outline: none !important;
+}
+
+.ad-section .video-system .thumbnails .thumb * {
+	pointer-events: none;
+}
+
+.ad-section .video-system .thumbnails .thumb.active img {
+	border: solid 2px var(--red-0);
+}
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {}
+@media( min-width: 1380px ) {
+	.ad-section .video-system .player .controls button {
+		width: 60px;
+	}
+
+	.ad-section .video-system:before {
+		transform: translateX(-595px);
+	}
+	.ad-section .video-system:after {
+		transform: translateX(510px);
+	}
+
+}
+
+
+/* -- Video Carousel -- */
+
+.video-carousel {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	bottom: 30px;
+	width: 100%;
+	height: auto;
+}
+
+/*
+ *
+ *	Carousel List
+ *
+ */
+
+/*.carousel {
+	position: relative;
+}*/
+
+.carousel .carousel-list {
+	position: relative;
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	padding: 0 calc( (100vw - 300px)/2 );
+	scroll-snap-type: x mandatory;
+}
+.carousel .carousel-list .carousel-list-item {
+	display: inline-block;
+	position: relative;
+	white-space: normal;
+	width: 300px;
+	scroll-snap-align: center;
+}
+
+/* -- Base -- */
+.carousel .carousel-controls {
+	pointer-events: none;
+}
+
+.carousel .carousel-controls .prev,
+.carousel .carousel-controls .next {
+	pointer-events: all;
+}
+
+/* -- Style -- */
+.carousel .carousel-controls {
+	position: absolute;
+	z-index: 10;
+	top: 30%;
+	left: 0;
+	width: 100%;
+}
+
+.carousel .carousel-controls .prev,
+.carousel .carousel-controls .next {
+	width: 50px;
+	position: absolute;
+	background-size: 32px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-indent: -100000px;
+}
+
+.carousel .carousel-controls .prev {
+	left: 0;
+	background-image: url('../../../media/icons/icon-left.svg');
+}
+.carousel .carousel-controls .next {
+	right: 0;
+	background-image: url('../../../media/icons/icon-right.svg');
+}

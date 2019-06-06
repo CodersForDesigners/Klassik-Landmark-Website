@@ -143,6 +143,80 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</section>
 
+	<!-- Ad Section -->
+	<section class="ad-section fill-neutral-0">
+		<div class="row">
+			<div class="container fill-light-2 block-space-top-bottom">
+				<div class="title columns small-10 small-offset-1 block-space-bottom text-center">
+					<div class="h3 text-dark-1">You <span class="h3 strong">don’t</span> have to be a big<br> builder to do things better</div>
+				</div>
+				<!-- Video-system : Not Mobile -->
+				<div class="video-system hide-for-mobile columns small-10 small-offset-1 large-8 large-offset-2">
+					<div class="player">
+						<!-- video embed -->
+						<div class="screen youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0" data-ga-video-src="Sample - Video">
+							<div class="youtube_load"></div>
+							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="controls">
+							<button class="prev">Prev</button>
+							<button class="next">Next</button>
+						</div>
+					</div>
+					<div class="thumbnails row" style="padding: 5px;">
+						<div class="thumb active columns small-3 cursor-pointer" tabindex="-1">
+							<img class="block" src="https://via.placeholder.com/1920x1080">
+						</div>
+						<div class="thumb columns small-3 cursor-pointer" tabindex="-1">
+							<img class="block" src="https://via.placeholder.com/1920x1080">
+						</div>
+						<div class="thumb columns small-3 cursor-pointer" tabindex="-1">
+							<img class="block" src="https://via.placeholder.com/1920x1080">
+						</div>
+						<div class="thumb columns small-3 cursor-pointer" tabindex="-1">
+							<img class="block" src="https://via.placeholder.com/1920x1080">
+						</div>
+					</div>
+				</div>
+				<!-- END: Video-system : Not Mobile -->
+			</div>
+
+			<!-- Video-Carousel : Mobile -->
+			<div class="video-carousel show-for-mobile carousel space-half-bottom js_carousel_container">
+				<div class="video-list carousel-list text-light js_carousel_content">
+					<div class="video carousel-list-item js_carousel_item">
+						<div class="video-embed js_video_embed" data-src="kbeRdgESIAE">
+							<div class="video-loading-indicator"></div>
+						<iframe src="https://www.youtube.com/embed/kbeRdgESIAE?html5=1&amp;color=white&amp;disablekb=1&amp;fs=0&amp;autoplay=0&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;origin=https://events.germinatewealth.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+					</div>
+
+					<div class="video carousel-list-item js_carousel_item">
+						<div class="video-embed js_video_embed" data-src="Gi6Iy-EjQmA">
+							<div class="video-loading-indicator"></div>
+						<iframe src="https://www.youtube.com/embed/Gi6Iy-EjQmA?html5=1&amp;color=white&amp;disablekb=1&amp;fs=0&amp;autoplay=0&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;origin=https://events.germinatewealth.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+					</div>
+
+					<div class="video carousel-list-item js_carousel_item">
+						<div class="video-embed js_video_embed" data-src="AODy5UkBg9Q">
+							<div class="video-loading-indicator"></div>
+						<iframe src="https://www.youtube.com/embed/AODy5UkBg9Q?html5=1&amp;color=white&amp;disablekb=1&amp;fs=0&amp;autoplay=0&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;origin=https://events.germinatewealth.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+					</div>
+
+					<div class="video carousel-list-item js_carousel_item">
+						<div class="video-embed js_video_embed" data-src="5SSz1XmOlbo">
+							<div class="video-loading-indicator"></div>
+						<iframe src="https://www.youtube.com/embed/5SSz1XmOlbo?html5=1&amp;color=white&amp;disablekb=1&amp;fs=0&amp;autoplay=0&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;origin=https://events.germinatewealth.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+					</div>
+				</div>
+				<div class="carousel-controls">
+					<button class="prev fill-light js_pager" data-dir="left">Previous</button>
+					<button class="next fill-light js_pager" data-dir="right">Next</button>
+				</div>
+			</div>
+			<!-- END: Video-Carousel : Mobile -->
+		</div>
+	</section>
+
 	<!-- Apartment Section: Collage -->
 	<section class="section-height collage-section">
 		<div class="row layer-1">
@@ -844,6 +918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type="text/javascript" src="/js/modules/smoothscroll.js<?= $ver ?>"></script>
 <script type="text/javascript" src="/js/modules/forms.js<?= $ver ?>"></script>
 <script type="text/javascript" src="/js/modules/disclaimer.js<?= $ver ?>"></script>
+<script type="text/javascript" src="/js/modules/carousel.js<?= $ver ?>"></script>
 <!-- Omega -->
 <script type="text/javascript" src="/js/modules/omega/utils.js<?= $ver ?>"></script>
 <script type="text/javascript" src="/js/modules/omega/user.js<?= $ver ?>"></script>
