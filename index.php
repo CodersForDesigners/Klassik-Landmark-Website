@@ -143,8 +143,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</section>
 
-	<!-- Ad Section -->
-	<section class="ad-section fill-neutral-0">
+	<!-- Film Section -->
+	<section class="film-section fill-neutral-0">
 		<div class="row">
 			<div class="container fill-light-2 block-space-top-bottom">
 				<div class="title columns small-10 small-offset-1 block-space-bottom text-center">
