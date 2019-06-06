@@ -151,29 +151,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="h3 text-dark-1">You <span class="h3 strong">don’t</span> have to be a big<br> builder to do things better</div>
 				</div>
 				<!-- Video-system : Not Mobile -->
-				<div class="video-system hide-for-mobile columns small-10 small-offset-1 large-8 large-offset-2">
+				<div class="video-system hide-for-mobile columns small-10 small-offset-1 large-8 large-offset-2 js_carousel_preview_container">
 					<div class="player">
-						<!-- video embed -->
-						<div class="screen youtube_embed ga_video" data-src="https://www.youtube.com/embed/kbeRdgESIAE?rel=0&amp;showinfo=0" data-ga-video-src="Sample - Video">
-							<div class="youtube_load"></div>
-							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						<div class="screen video-embed js_video_embed" data-src="kbeRdgESIAE" data-id="carousel">
+							<div class="video-loading-indicator"></div>
 						</div>
 						<div class="controls">
-							<button class="prev">Prev</button>
-							<button class="next">Next</button>
+							<button class="prev js_pager no-pointer" data-dir="left">Prev</button>
+							<button class="next js_pager no-pointer" data-dir="right">Next</button>
 						</div>
 					</div>
-					<div class="thumbnails row" style="padding: 5px;">
-						<div class="thumb active columns small-3 cursor-pointer" tabindex="-1" data-src="kbeRdgESIAE">
+					<div class="thumbnails row js_carousel_content no-pointer" style="padding: 5px;">
+						<div class="thumb active columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="kbeRdgESIAE">
 							<img class="block" src="media/film-section/film-basement.png<?php echo $ver ?>">
 						</div>
-						<div class="thumb columns small-3 cursor-pointer" tabindex="-1" data-src="Gi6Iy-EjQmA">
+						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="Gi6Iy-EjQmA">
 							<img class="block" src="media/film-section/film-supermarket.png<?php echo $ver ?>">
 						</div>
-						<div class="thumb columns small-3 cursor-pointer" tabindex="-1" data-src="AODy5UkBg9Q">
+						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="AODy5UkBg9Q">
 							<img class="block" src="media/film-section/film-airport.png<?php echo $ver ?>">
 						</div>
-						<div class="thumb columns small-3 cursor-pointer" tabindex="-1" data-src="5SSz1XmOlbo">
+						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="5SSz1XmOlbo">
 							<img class="block" src="media/film-section/film-restaurant.png<?php echo $ver ?>">
 						</div>
 					</div>
@@ -187,25 +185,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="video carousel-list-item js_carousel_item">
 						<div class="video-embed js_video_embed" data-src="kbeRdgESIAE">
 							<div class="video-loading-indicator"></div>
-						<iframe src="https://www.youtube.com/embed/kbeRdgESIAE?html5=1&amp;color=white&amp;disablekb=1&amp;fs=0&amp;autoplay=0&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;origin=https://events.germinatewealth.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+						</div>
 					</div>
 
 					<div class="video carousel-list-item js_carousel_item">
 						<div class="video-embed js_video_embed" data-src="Gi6Iy-EjQmA">
 							<div class="video-loading-indicator"></div>
-						<iframe src="https://www.youtube.com/embed/Gi6Iy-EjQmA?html5=1&amp;color=white&amp;disablekb=1&amp;fs=0&amp;autoplay=0&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;origin=https://events.germinatewealth.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+						</div>
 					</div>
 
 					<div class="video carousel-list-item js_carousel_item">
 						<div class="video-embed js_video_embed" data-src="AODy5UkBg9Q">
 							<div class="video-loading-indicator"></div>
-						<iframe src="https://www.youtube.com/embed/AODy5UkBg9Q?html5=1&amp;color=white&amp;disablekb=1&amp;fs=0&amp;autoplay=0&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;origin=https://events.germinatewealth.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+						</div>
 					</div>
 
 					<div class="video carousel-list-item js_carousel_item">
 						<div class="video-embed js_video_embed" data-src="5SSz1XmOlbo">
 							<div class="video-loading-indicator"></div>
-						<iframe src="https://www.youtube.com/embed/5SSz1XmOlbo?html5=1&amp;color=white&amp;disablekb=1&amp;fs=0&amp;autoplay=0&amp;loop=0&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0&amp;origin=https://events.germinatewealth.com" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+						</div>
 					</div>
 				</div>
 				<div class="carousel-controls">

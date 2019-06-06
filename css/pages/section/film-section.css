@@ -83,6 +83,9 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 }
+.film-section .video-system .player .controls button.no-pointer {
+	opacity: 0.25;
+}
 
 .film-section .video-system .player .controls button.prev {
 	left: -20px;
@@ -97,6 +100,9 @@
 	position: relative;
 	z-index: 3;
 	padding: 5px;
+}
+.film-section .video-system .thumbnails.no-pointer {
+	opacity: 0.25;
 }
 
 .film-section .video-system .thumbnails .thumb {
@@ -114,7 +120,7 @@
 	content: 'Watch Film';
 	text-transform: uppercase;
 	color: #FFF;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.3);
 	position: absolute;
 	top: 5px;
 	left: 5px;
