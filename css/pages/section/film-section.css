@@ -100,6 +100,7 @@
 }
 
 .film-section .video-system .thumbnails .thumb {
+	position: relative;
 	padding: 5px;
 	outline: none !important;
 }
@@ -108,8 +109,31 @@
 	pointer-events: none;
 }
 
+.film-section .video-system .thumbnails .thumb:before {
+	display: flex;
+	content: 'Watch Film';
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	pointer-events: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.film-section .video-system .thumbnails .thumb.active {
+	pointer-events: none;
+}
 .film-section .video-system .thumbnails .thumb.active img {
 	border: solid 2px var(--red-0);
+}
+
+.film-section .video-system .thumbnails .thumb.active:before {
+	display: none;
 }
 
 @media( min-width: 640px )  {}

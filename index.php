@@ -154,7 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="video-system hide-for-mobile columns small-10 small-offset-1 large-8 large-offset-2">
 					<div class="player">
 						<!-- video embed -->
-						<div class="screen youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0" data-ga-video-src="Sample - Video">
+						<div class="screen youtube_embed ga_video" data-src="https://www.youtube.com/embed/kbeRdgESIAE?rel=0&amp;showinfo=0" data-ga-video-src="Sample - Video">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -164,17 +164,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</div>
 					</div>
 					<div class="thumbnails row" style="padding: 5px;">
-						<div class="thumb active columns small-3 cursor-pointer" tabindex="-1">
-							<img class="block" src="https://via.placeholder.com/1920x1080">
+						<div class="thumb active columns small-3 cursor-pointer" tabindex="-1" data-src="kbeRdgESIAE">
+							<img class="block" src="media/film-section/film-basement.png<?php echo $ver ?>">
 						</div>
-						<div class="thumb columns small-3 cursor-pointer" tabindex="-1">
-							<img class="block" src="https://via.placeholder.com/1920x1080">
+						<div class="thumb columns small-3 cursor-pointer" tabindex="-1" data-src="Gi6Iy-EjQmA">
+							<img class="block" src="media/film-section/film-supermarket.png<?php echo $ver ?>">
 						</div>
-						<div class="thumb columns small-3 cursor-pointer" tabindex="-1">
-							<img class="block" src="https://via.placeholder.com/1920x1080">
+						<div class="thumb columns small-3 cursor-pointer" tabindex="-1" data-src="AODy5UkBg9Q">
+							<img class="block" src="media/film-section/film-airport.png<?php echo $ver ?>">
 						</div>
-						<div class="thumb columns small-3 cursor-pointer" tabindex="-1">
-							<img class="block" src="https://via.placeholder.com/1920x1080">
+						<div class="thumb columns small-3 cursor-pointer" tabindex="-1" data-src="5SSz1XmOlbo">
+							<img class="block" src="media/film-section/film-restaurant.png<?php echo $ver ?>">
 						</div>
 					</div>
 				</div>
