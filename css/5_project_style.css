@@ -115,10 +115,27 @@ CMYK: 96, 78, 49, 53
 
 	/* -- -- */
 	--container-width: 300px;
-	--container-margin: calc((100vw - var(--container-width))/2);
+	--container-margin: calc( ( 100vw - var(--container-width) ) / 2 );
 }
 
+@media( min-width: 640px )  {
+	:root {
+		--container-width: 600px;
+		--space-one : calc(var(--container-width)/12);
+	}
+}
 
+@media( min-width: 1040px ) {
+	:root {
+		--container-width: 1000px;
+	}
+}
+
+@media( min-width: 1480px ) {
+	:root {
+		--container-width: 1440px;
+	}
+}
 
 
 body, .body {

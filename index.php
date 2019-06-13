@@ -63,16 +63,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="icon" style="background-image: url('/media/icons/download.svg<?php echo $ver ?>');"></div>
 					</a>
 					<a href="landmark/pricing" target="_blank" class="link variant columns small-3 active">
+						<div class="flag">
+							<div class="icon" style="background-image: url('/media/icons/new-tower.svg<?php echo $ver ?>');"></div>
+							<div class="label strong">New Tower</div>
+						</div>
 						<div class="title label text-light-0">Island 3BHK</div>
 						<div class="sub-title small text-neutral-0">2035sft to 2170sft</div>
 						<hr class="dash">
-						<div class="description small text-light-0">READY TO MOVE IN</div>
+						<div class="description small text-light-0">READY IN NOV 2020</div>
 					</a>
 					<a href="landmark/pricing" target="_blank" class="link variant columns small-3">
+						<div class="flag">
+							<div class="icon" style="background-image: url('/media/icons/new-tower.svg<?php echo $ver ?>');"></div>
+							<div class="label strong">New Tower</div>
+						</div>
 						<div class="title label text-light-0">Plush 3BHK</div>
 						<div class="sub-title small text-neutral-0">1691sft to 1920sft</div>
 						<hr class="dash">
-						<div class="description small text-light-0">READY TO MOVE IN</div>
+						<div class="description small text-light-0">READY IN NOV 2020</div>
 					</a>
 					<a href="landmark/pricing" target="_blank" class="link variant columns small-3">
 						<div class="title label text-light-0">Elevate 3BHK</div>

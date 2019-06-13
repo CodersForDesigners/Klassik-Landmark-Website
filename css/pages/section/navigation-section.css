@@ -147,11 +147,71 @@
 	background-color: var(--dark-2-75)
 }
 
-@media( max-width: 639px )  { /* -- To solve for Overflow Scroll only on mobile -- */
+
+/* -- New Tower Flag -- */
+.navigation-section .container .link .flag {
+	width: 40px;
+	box-sizing: content-box;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	background-color: var(--red-2);
+	color: var(--light-0);
+	font-size: 0;
+	text-align: center;
+}
+.navigation-section .container .link .flag:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid transparent;
+	border-left: 20px solid var(--red-2);
+	border-right: 20px solid var(--red-2);
+}
+
+.navigation-section .container .link .flag .icon {
+	display: inline-block;
+	height: 22px;
+	width: 22px;
+	margin-bottom: 4px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.5;
+}
+
+.navigation-section .container .link .flag .label {
+	font-size: 0.9rem;
+	line-height: 1;
+	letter-spacing: -0.05rem;
+	opacity: 0.75;
+}
+
+.navigation-section .container .link.active .flag {
+	background-color: var(--red-1);
+}
+
+.navigation-section .container .link.active .flag:after {
+	border-left: 20px solid var(--red-1);
+	border-right: 20px solid var(--red-1);
+}
+
+.navigation-section .container .link.active .flag .icon {
+	opacity: 0.75;
+}
+
+.navigation-section .container .link.active .flag .label {
+	opacity: 1;
+}
+
+@media( max-width: 1039px )  { /* -- To solve for Overflow Scroll only on Tablet -- */
 	.navigation-section .row {
 		position: relative;
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
 	}
 
 	.navigation-section .row .scrollee {
@@ -161,17 +221,30 @@
 
 	.navigation-section .row .scrollee .container {
 		position: relative;
-		max-width: 600px;
+		max-width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
 		white-space: nowrap;
+		margin: 0;
 	}
 
 	.navigation-section .row .scrollee .container .link {
 		position: relative;
 		z-index: 1;
-		width: 150px !important;
+		width: 200px !important;
 		white-space: normal;
 	}
 
+	.navigation-section .row .scrollee .container .link:first-child {
+		margin-left: var(--container-margin);
+	}
+
+	.navigation-section .row .scrollee .container .link:last-child {
+		margin-right: var(--container-margin);
+	}
+}
+
+@media( max-width: 639px )  { /* -- To solve for Overflow Scroll only on mobile -- */
 	.navigation-section .row .scrollee .container .link:first-child {
 		margin-left: var(--container-margin);
 	}
@@ -247,6 +320,13 @@
 		display: block;
 	}
 
+	/* -- New Tower Flag */
+	.navigation-section .container .link .flag {
+		top: -10px;
+		right: 20px;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
 
 }
 @media( min-width: 1380px ) {
