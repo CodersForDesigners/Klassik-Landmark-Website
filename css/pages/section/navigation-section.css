@@ -328,6 +328,12 @@
 		border-top-left-radius: 5px;
 	}
 
+	/* -- Translucent Bands on Left and Right -- */
+	.navigation-section .container .link:first-child:after,
+	.navigation-section .container .link:last-child:after {
+		width: 1000px;
+	}
+
 }
 @media( min-width: 1380px ) {
 	.navigation-section.show,
