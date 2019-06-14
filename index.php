@@ -143,77 +143,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</section>
 
-	<!-- Film Section -->
-	<section class="film-section fill-neutral-0">
-		<div class="row">
-			<div class="container fill-light-2 block-space-top-bottom">
-				<div class="title columns small-10 small-offset-1 block-space-bottom text-center">
-					<div class="h3 text-dark-1">You <span class="h3 strong">don’t</span> have to be a big<br> builder to do things better</div>
-				</div>
-				<!-- Video-system : Not Mobile -->
-				<div class="video-system hide-for-mobile columns small-10 small-offset-1 large-8 large-offset-2 js_carousel_preview_container">
-					<div class="player">
-						<div class="screen video-embed js_video_embed" data-src="kbeRdgESIAE" data-id="carousel">
-							<div class="video-loading-indicator"></div>
-						</div>
-						<div class="controls">
-							<button class="prev js_pager no-pointer" data-dir="left">Prev</button>
-							<button class="next js_pager no-pointer" data-dir="right">Next</button>
-						</div>
-					</div>
-					<div class="thumbnails row js_carousel_content no-pointer" style="padding: 5px;">
-						<div class="thumb active columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="kbeRdgESIAE">
-							<img class="block" src="media/film-section/film-basement.png<?php echo $ver ?>">
-						</div>
-						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="Gi6Iy-EjQmA">
-							<img class="block" src="media/film-section/film-supermarket.png<?php echo $ver ?>">
-						</div>
-						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="AODy5UkBg9Q">
-							<img class="block" src="media/film-section/film-airport.png<?php echo $ver ?>">
-						</div>
-						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="5SSz1XmOlbo">
-							<img class="block" src="media/film-section/film-restaurant.png<?php echo $ver ?>">
-						</div>
-					</div>
-				</div>
-				<!-- END: Video-system : Not Mobile -->
-			</div>
-
-			<!-- Video-Carousel : Mobile -->
-			<div class="video-carousel show-for-mobile carousel space-half-bottom js_carousel_container">
-				<div class="video-list carousel-list text-light js_carousel_content">
-					<div class="video carousel-list-item js_carousel_item">
-						<div class="video-embed js_video_embed" data-src="kbeRdgESIAE">
-							<div class="video-loading-indicator"></div>
-						</div>
-					</div>
-
-					<div class="video carousel-list-item js_carousel_item">
-						<div class="video-embed js_video_embed" data-src="Gi6Iy-EjQmA">
-							<div class="video-loading-indicator"></div>
-						</div>
-					</div>
-
-					<div class="video carousel-list-item js_carousel_item">
-						<div class="video-embed js_video_embed" data-src="AODy5UkBg9Q">
-							<div class="video-loading-indicator"></div>
-						</div>
-					</div>
-
-					<div class="video carousel-list-item js_carousel_item">
-						<div class="video-embed js_video_embed" data-src="5SSz1XmOlbo">
-							<div class="video-loading-indicator"></div>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-controls">
-					<button class="prev fill-light js_pager" data-dir="left">Previous</button>
-					<button class="next fill-light js_pager" data-dir="right">Next</button>
-				</div>
-			</div>
-			<!-- END: Video-Carousel : Mobile -->
-		</div>
-	</section>
 
 	<!-- Apartment Section: Collage -->
 	<section class="section-height collage-section">
@@ -337,6 +266,80 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 		</div>
 	</section>
+	
+
+	<!-- Film Section -->
+	<section class="film-section fill-neutral-0">
+		<div class="row">
+			<div class="container fill-light-2 block-space-top-bottom">
+				<div class="title columns small-10 small-offset-1 block-space-bottom text-center">
+					<div class="h3 text-dark-1">You <span class="h3 strong">don’t</span> have to be a big<br> builder to do things better</div>
+				</div>
+				<!-- Video-system : Not Mobile -->
+				<div class="video-system hide-for-mobile columns small-10 small-offset-1 large-8 large-offset-2 js_carousel_preview_container">
+					<div class="player">
+						<div class="screen video-embed js_video_embed" data-src="kbeRdgESIAE" data-id="carousel">
+							<div class="video-loading-indicator"></div>
+						</div>
+						<div class="controls">
+							<button class="prev js_pager no-pointer" data-dir="left">Prev</button>
+							<button class="next js_pager no-pointer" data-dir="right">Next</button>
+						</div>
+					</div>
+					<div class="thumbnails row js_carousel_content no-pointer" style="padding: 5px;">
+						<div class="thumb active columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="kbeRdgESIAE">
+							<img class="block" src="media/film-section/film-basement.png<?php echo $ver ?>">
+						</div>
+						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="Gi6Iy-EjQmA">
+							<img class="block" src="media/film-section/film-supermarket.png<?php echo $ver ?>">
+						</div>
+						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="AODy5UkBg9Q">
+							<img class="block" src="media/film-section/film-airport.png<?php echo $ver ?>">
+						</div>
+						<div class="thumb columns small-3 cursor-pointer js_carousel_item" tabindex="-1" data-src="5SSz1XmOlbo">
+							<img class="block" src="media/film-section/film-restaurant.png<?php echo $ver ?>">
+						</div>
+					</div>
+				</div>
+				<!-- END: Video-system : Not Mobile -->
+			</div>
+
+			<!-- Video-Carousel : Mobile -->
+			<div class="video-carousel show-for-mobile carousel space-half-bottom js_carousel_container">
+				<div class="video-list carousel-list text-light js_carousel_content">
+					<div class="video carousel-list-item js_carousel_item">
+						<div class="video-embed js_video_embed" data-src="kbeRdgESIAE">
+							<div class="video-loading-indicator"></div>
+						</div>
+					</div>
+
+					<div class="video carousel-list-item js_carousel_item">
+						<div class="video-embed js_video_embed" data-src="Gi6Iy-EjQmA">
+							<div class="video-loading-indicator"></div>
+						</div>
+					</div>
+
+					<div class="video carousel-list-item js_carousel_item">
+						<div class="video-embed js_video_embed" data-src="AODy5UkBg9Q">
+							<div class="video-loading-indicator"></div>
+						</div>
+					</div>
+
+					<div class="video carousel-list-item js_carousel_item">
+						<div class="video-embed js_video_embed" data-src="5SSz1XmOlbo">
+							<div class="video-loading-indicator"></div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-controls">
+					<button class="prev fill-light js_pager" data-dir="left">Previous</button>
+					<button class="next fill-light js_pager" data-dir="right">Next</button>
+				</div>
+			</div>
+			<!-- END: Video-Carousel : Mobile -->
+		</div>
+	</section>
+
 
 	<section class="diagram-section section-height fill-light-1">
 		<div class="row">
